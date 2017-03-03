@@ -1,0 +1,53 @@
+[
+  {
+    "name":"toggle",
+    "action": "fr.smartapps.smartguide.fragment.TabFragment",
+    "descriptions": {
+      "tabMode": "fragmentContainer",
+      "colorTabSelected": "@colorTabSelected",
+      "colorTabUnselected": "@colorTab",
+      "backgroundTabBar": "@colorAccent"
+    }
+  },
+  {
+    "name":"map",
+    "action":"fr.smartapps.smartguide.fragment.MapFragment",
+    "descriptions": {
+      "backgroundMapCallout": "#EE555555",
+      "colorMapCalloutText": "#FFFFFF",
+      "fileMapCalloutDisclosure": "map_disclosure.png",
+      "locationIconColor": "@colorAccent",
+      "background": "@colorBackground"
+    }
+  },
+  {
+    "name":"mapbox",
+    "action":"fr.smartapps.smartguide.fragment.MapboxFragment",
+    "descriptions": {
+      "backgroundMapCallout": "#EE555555",
+      "colorMapCalloutText": "#FFFFFF",
+      "fileMapCalloutDisclosure": "map_disclosure.png",
+      "locationIconColor": "@colorAccent",
+      "background": "@colorBackground"
+    }
+  },
+  {
+    "name":"list",
+    "action": "fr.smartapps.smartguide.fragment.ListPOIFragment",
+    "descriptions": {
+      "backgroundListCell": "list_cell_bkg_stretchable.png",
+      "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
+      "colorCellTitle": "#000000",
+      "fileCellIcon": "icon_cellule.png",
+      "fontCellTitle": "@mainFont",
+      "intScaleTypeImage": 0,
+      "cellType": 1
+    }
+  },
+  {
+    "name":"web",
+    "action":"fr.smartapps.smartguide.fragment.WebViewFragment",
+    "descriptions": {
+    }
+  }
+]

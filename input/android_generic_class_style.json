@@ -1,0 +1,257 @@
+[
+{
+"action": "fr.smartapps.smartguide.application.AppSession",
+"descriptions": {
+"backgroundNavBar": "navbar_portrait.png",
+"colorStatusBar": "#000000",
+"colorTitle": "@colorNavBarTitle",
+"fontTitle": "@mainFont",
+"colorTintSelectedNavBarButton": "#88ffffff",
+"colorTintMainIcon":"#ffffff",
+
+"backgroundDialog": "#FFFFFF",
+"colorDialogText": "#000000",
+"colorDialogButtonText": "#1A181B",
+"colorDialogButtonTextSelected": "#1A181B",
+"colorDialogFinishedProgress": "#1A181B",
+"colorDialogUnfinishedProgress": "#CCCCCC",
+"fontDialogText": "",
+
+"colorDropdownTitle": "#FFFFFF",
+"colorBackgroundDropdownTitle": "#252525",
+"colorDividerDropDown": "#FFFFFF",
+"colorDropdownValidate": "#FFFFFF",
+"colorSpinnerOnOff": "#ffffff"
+}
+},
+{
+"action":"fr.smartapps.smartguide.activity.PagerTabActivity",
+"descriptions": {
+"backgroundTabBar": "#000000",
+"colorTabIconSelected": "#E30016",
+"colorTabIconUnselected": "#aaaaaa",
+"fontTabTitle": "@subtitleFont",
+
+"colorFabMenu": "#ffffff",
+"colorFabButton": "#ffffff",
+"colorFabMenuSelected": "#ffffff",
+"colorFabButtonSelected": "#ffffff"
+}
+},
+{
+"action":"fr.smartapps.smartguide.activity.BurgerActivity",
+"descriptions": {
+"intScaleTypeImage": 1,
+"background":"#FFFFFF",
+"backgroundListCell":"#FFFFFF",
+"backgroundListCellSelected":"#CCCCCC",
+"backgroundListCard":"#FFFFFF",
+"backgroundListCardSelected":"#CCCCCC",
+
+"colorCellTitle":"@colorListTitle",
+"fontCellTitle":"@mainFont",
+"fontCellSubtitle":"@subtitleFont",
+"colorCellSubtitle":"@colorListSubtitle",
+
+"backgroundListHeader": "",
+"colorListHeadetText": "",
+"fontListHeaderText": "",
+
+"fileCellIcon":"map_disclosure.png",
+"colorListIcon":"#252525",
+
+"intListDividerHeight":1,
+"colorListDivider":"#252525",
+
+"cellType": 3,
+
+"colorFabMenu": "#1A181B",
+"colorFabButton": "#1A181B",
+"colorFabMenuSelected": "#1A181B",
+"colorFabButtonSelected": "#1A181B"
+}
+},
+{
+"action": "fr.smartapps.smartguide.fragment.ListRelatedPOIFragment",
+"descriptions": {
+"cellType": 1,
+"intScaleTypeImage": 0,
+"intGridColumn": 1,
+
+"backgroundListCell": "list_cell_bkg_stretchable.png",
+"backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
+"backgroundListCard": "",
+"backgroundListCardSelected": "",
+
+"colorCellTitle": "@colorListTitle",
+"colorCellSubtitle": "@colorListSubtitle",
+"fontCellTitle": "@fontTitle",
+"fontCellSubtitle": "@fontCellSubtitle",
+
+"backgroundListHeader": "",
+"colorListHeadetText": "",
+"fontListHeaderText": "",
+
+"fileCellIcon": "icon_cellule.png",
+"colorListIcon": "",
+
+"intListDividerHeight": 0,
+"colorListDivider": "#000000",
+
+"background": "#ffffff"
+}
+},
+{
+"action":"fr.smartapps.smartguide.fragment.POIShortTextFragment",
+"descriptions": {
+"intScaleTypeImage": 0,
+
+"colorTitle":"@colorPOITitle",
+"fontTitle": "@mainFont",
+"colorShortText": "@colorPOIText",
+"fontShortText": "@textFont",
+
+"background": "#FFFFFF",
+"colorCard": "#FFFFFF",
+
+"colorProgressBar":"#999999",
+"colorProgressBarBackground":"#ffffff",
+"colorFilterProgressThumb":"#DDDDDD",
+"fileProgressBarThumb": "",
+
+"colorFilterButtonAudio":"#ffffff",
+"backgroundAudio":"#565555",
+"colorAudioTextTimeRemaining":"#ffffff"
+}
+},
+{
+"action":"fr.smartapps.smartguide.fragment.POIFullScreenFragment",
+"descriptions": {
+"intScaleTypeImage": 1,
+
+"colorTitle":"@colorPOITitle",
+"fontTitle": "@mainFont",
+"colorShortText": "@colorPOIText",
+"fontShortText": "@textFont",
+
+"background": "#FFFFFF",
+"colorCard": "#FFFFFF",
+
+"colorProgressBar":"#999999",
+"colorProgressBarBackground":"#ffffff",
+"colorFilterProgressThumb":"#DDDDDD",
+"fileProgressBarThumb": "",
+
+"colorFilterButtonAudio":"#ffffff",
+"backgroundAudio":"#565555",
+"colorAudioTextTimeRemaining":"#ffffff"
+}
+},
+{
+"action":"fr.smartapps.smartguide.fragment.POIFatherSonsFragment",
+"descriptions": {
+"intScaleTypeImage": 0,
+
+"colorTitle":"@colorPOITitle",
+"fontTitle": "@mainFont",
+"colorShortText": "@colorPOIText",
+"fontShortText": "@textFont",
+
+"background": "#FFFFFF",
+"colorCard": "#FFFFFF",
+
+"colorProgressBar":"#999999",
+"colorProgressBarBackground":"#ffffff",
+"colorFilterProgressThumb":"#DDDDDD",
+"fileProgressBarThumb": "",
+
+"colorFilterButtonAudio":"#ffffff",
+"backgroundAudio":"#565555",
+"colorAudioTextTimeRemaining":"#ffffff",
+
+"backgroundListCell": "list_cell_bkg_stretchable.png",
+"backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
+"fontListTitle": "@mainFont",
+"fontListSubtitle": "@subtitleFont",
+"colorListTitle": "@colorListTitle",
+"colorListSubtitle": "@colorListSubtitle"
+}
+},
+{
+"action":"fr.smartapps.smartguide.fragment.POILongTextFragment",
+"descriptions": {
+"intScaleTypeImage": 0,
+
+"colorTitle":"@colorPOITitle",
+"fontTitle": "@mainFont",
+"colorShortText": "@colorPOIText",
+"fontShortText": "@textFont",
+
+"background": "#FFFFFF",
+"colorCard": "#FFFFFF",
+
+"colorProgressBar":"#999999",
+"colorProgressBarBackground":"#ffffff",
+"colorFilterProgressThumb":"#DDDDDD",
+"fileProgressBarThumb": "",
+
+"colorFilterButtonAudio":"#ffffff",
+"backgroundAudio":"#565555",
+"colorAudioTextTimeRemaining":"#ffffff"
+}
+},
+{
+"action":"fr.smartapps.smartguide.activity.minor.LongTextActivity",
+"descriptions": {
+"background": "#DD000000",
+"colorText": "#FFFFFF",
+"linkColor": "#4f6e85",
+"linkColorVisited": "#dbdbdb"
+}
+},
+{
+"action": "fr.smartapps.smartguide.fragment.WebViewFragment",
+"descriptions": {
+"background": "#ffffff",
+"colorProgressBarFinished": "#41475f",
+"colorProgressBarUnfinished": "#EEEEEE",
+"colorProgressText": "#41475f"
+}
+},
+{
+"action": "fr.smartapps.smartguide.fragment.MediaImageFragment",
+"descriptions": {
+"background": "#000000",
+"backgroundSummary": "#99000000",
+"colorTextSummary": "#FFFFFF",
+"fontTextSummary": ""
+}
+},
+{
+"action": "fr.smartapps.smartguide.fragment.MapFragment",
+"descriptions": {
+"backgroundMapCallout": "#EE555555",
+"colorMapCalloutText": "#FFFFFF",
+"fileMapCalloutDisclosure": "map_disclosure.png"
+}
+},
+{
+"action":"fr.smartapps.smartguide.activity.TwoStepsPackageActivity",
+"descriptions": {
+"color2stepsProgressFinished": "#41475f",
+"color2stepsProgressUnfinished": "#CCCCCC",
+"color2stepsText": "#41475f"
+}
+},
+{
+"action":"fr.smartapps.smartguide.activity.VideoActivity",
+"descriptions": {
+"colorBackgroundPlayer":"#252525",
+"colorButtonPlay":"#ffffff",
+"colorProgressBarFinished":"#ffffff",
+"colorProgressBarUnfinished":"#999999",
+"colorProgressThumb":"#ffffff",
+"colorProgressTime":"#ffffff"
+}
+}
+]
