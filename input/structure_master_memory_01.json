@@ -84,6 +84,57 @@
       "title":"Compra billetes",
       "tabTitle":"Billetes",
       "url":"media234"
+    },
+    {
+      "name":"switcher",
+      "title":"Switch",
+      "tabTitle":"Switch",
+      "menus":[
+        {
+          "name":"toggle",
+          "title":"Intro",
+          "menus":[
+            {
+              "name":"list",
+              "title":"Visite",
+              "tabTitle":"Visite",
+              "tours":[
+                1668
+              ]
+            },
+            {
+              "name":"list",
+              "title":"Visite",
+              "tabTitle":"Visite",
+              "tours":[
+                1668
+              ]
+            }
+          ]
+        },
+        {
+          "name":"toggle",
+          "title":"Visite",
+          "menus":[
+            {
+              "name":"list",
+              "title":"Visite",
+              "tabTitle":"Visite",
+              "tours":[
+                1668
+              ]
+            },
+            {
+              "name":"list",
+              "title":"Visite",
+              "tabTitle":"Visite",
+              "tours":[
+                1668
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

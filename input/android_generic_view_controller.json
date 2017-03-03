@@ -3,10 +3,16 @@
     "name":"toggle",
     "action": "fr.smartapps.smartguide.fragment.TabFragment",
     "descriptions": {
-      "tabMode": "fragmentContainer",
       "colorTabSelected": "@colorTabSelected",
       "colorTabUnselected": "@colorTab",
       "backgroundTabBar": "@colorAccent"
+    }
+  },
+  {
+    "name":"switcher",
+    "action": "fr.smartapps.smartguide.fragment.FlipFragment",
+    "descriptions": {
+
     }
   },
   {

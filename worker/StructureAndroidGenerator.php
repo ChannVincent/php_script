@@ -117,6 +117,18 @@ class StructureAndroidGenerator extends BaseWorker
                 }
                 $vc->descriptions->viewControllers = $array;
                 break;
+
+            case "switcher";
+                $genericViewController = $this->getGenericViewController("switcher");
+                $vc->action = $genericViewController->action;
+                $array = array();
+                foreach ($menu->menus as $position => $sub_menu)
+                {
+                    $this->setSubViewController($sub_menu, $idx * 10 + $position);
+                    $array[$position] = $idx * 10 + $position;
+                }
+                $vc->descriptions->viewControllers = $array;
+                break;
         }
 
         foreach (get_object_vars($genericViewController->descriptions) as $key => $value) {
