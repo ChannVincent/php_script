@@ -1,0 +1,104 @@
+{
+  "viewControllerDescriptions": [
+
+
+    {
+      "action": "fr.smartapps.smartguide.fragment.WebViewFragment",
+      "descriptions": {
+        "url":"url",
+        "tabTitle": "tabTitle",
+        "title": "title",
+        "tabIcon": "filename",
+
+        "colorProgressBarFinished":"flashy_color",
+        "colorProgressBarUnfinished":"background_color_dark",
+        "colorProgressText":"flashy_color",
+        "background":"background_color"
+      }
+    },
+
+
+    {
+      "action": "fr.smartapps.smartguide.fragment.SwitcherFragment",
+      "descriptions": {
+        "tabTitle": "tabTitle",
+        "title": "title",
+        "tabIcon": "filename",
+        "viewControllers": [
+        ]
+      }
+    },
+
+    {
+      "action": "fr.smartapps.smartguide.fragment.ToggleFragment",
+      "descriptions": {
+        "tabTitle": "tabTitle",
+        "title": "title",
+        "tabIcon": "filename",
+        "viewControllers": [
+        ]
+      }
+    },
+
+    {
+      "action":"fr.smartapps.smartguide.fragment.MapFragment",
+      "descriptions": {
+        "tabTitle": "tabTitle",
+        "title": "title",
+        "tabIcon": "filename",
+        "tour": "id",
+
+        "backgroundMapCallout": "#EE888888",
+        "colorMapCalloutText": "white",
+        "fileMapCalloutDisclosure": "map_disclosure.png"
+      }
+    },
+
+
+    {
+      "action":"fr.smartapps.smartguide.fragment.ListPOIFragment",
+      "descriptions": {
+        "cellType": "id",
+        "tabTitle": "tabTitle",
+        "title": "title",
+        "tabIcon": "filename",
+        "tours": [
+        ],
+
+        "background":"background_color",
+        "backgroundListCell":"list_cell_background.png",
+        "backgroundListCellSelected":"list_cell_background_selected.png",
+        "colorCellTitle":"title_color",
+        "fontCellTitle":"title_font",
+        "fontCellSubtitle":"subtitle_font",
+        "colorCellSubtitle":"subtitle_color",
+        "fileCellIcon":"arrow_list.png",
+        "colorListIcon":"flashy_color"
+      }
+    },
+
+
+    {
+      "action":"fr.smartapps.smartguide.fragment.KeypadPOIFragment",
+      "descriptions": {
+        "tabTitle": "tabTitle",
+        "title": "title",
+        "tabIcon": "filename",
+
+        "colorTextEnabled": "white",
+        "colorTextDisabled": "background_dark",
+        "backgroundButton": "background_dark",
+        "backgroundButtonOk": "flashy_color",
+        "backgroundButtonDelete": "background_color_dark",
+        "textNoMatchPOI": "Aucune oeuvre n'est associée à ce cartel",
+        "textNoInput": "Entrer un numéro",
+        "colorInputText": "flashy_color",
+        "sizeInputText": 10,
+        "colorFeedbackText": "text_color",
+        "fontFeedbackText": "text_font",
+        "tours":[
+        ]
+      }
+    }
+  ]
+}

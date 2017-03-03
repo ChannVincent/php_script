@@ -1,0 +1,183 @@
+{
+  "classStyleDescriptions":[
+    {
+      "action": "fr.smartapps.smartguide.application.AppSession",
+      "descriptions": {
+        "backgroundNavBar": "primary_color",
+        "colorTintMainIcon": "flashy_color",
+        "colorStatusBar": "primary_color_dark",
+        "colorTitle": "flashy_color",
+        "colorTintSelectedNavBarButton": "#55ffffff",
+        "colorDialogFinishedProgress": "flashy_color",
+        "colorDialogUnfinishedProgress": "background_color_dark",
+
+        "backgroundDialog": "white",
+        "colorDialogText": "text_color",
+        "colorDialogButtonText": "flashy_color",
+        "colorDialogButtonTextSelected": "flashy_color_dark",
+        "fontDialogText": "text_font",
+
+        "colorDividerDropDown": "text_color",
+        "colorBackgroundDropdownTitle": "text_color",
+        "colorDropdownTitle": "background_color"
+      }
+    },
+
+    {
+      "action":"fr.smartapps.smartguide.activity.PagerTabActivity",
+      "descriptions": {
+        "backgroundTabBar": "primary_color",
+        "colorTabIconSelected": "flashy_color",
+        "colorTabIconUnselected": "background_color_dark",
+        "colorTabSelector": "flashy_color",
+        "intTabSelectorHeight": 5,
+        "fontTabTitle": "subtitle_font",
+
+        "colorFabMenu": "flashy_color",
+        "colorFabButton": "flashy_color",
+        "colorFabMenuSelected": "flashy_color_selected",
+        "colorFabButtonSelected": "flashy_color_selected"
+      }
+    },
+
+    {
+      "action":"fr.smartapps.smartguide.fragment.POIShortTextFragment",
+      "descriptions": {
+        "background": "background_color",
+        "colorCard": "white",
+        "fontTitle": "title_font",
+        "colorTitle":"title_color",
+        "fontShortText": "text_font",
+        "colorShortText": "text_color",
+        "intScaleTypeImage": 0,
+
+        "colorProgressBar":"flashy_color",
+        "colorProgressBarBackground":"background_color_dark",
+        "colorFilterProgressThumb":"flashy_color",
+        "colorFilterButtonAudio":"flashy_color",
+        "backgroundAudio":"primary_color",
+        "colorAudioTextTimeRemaining":"flashy_color"
+      }
+    },
+
+    {
+      "action":"fr.smartapps.smartguide.fragment.POIFullScreenFragment",
+      "descriptions": {
+        "background": "background_color",
+        "colorCard": "white",
+        "fontTitle": "title_font",
+        "colorTitle":"title_color",
+        "fontShortText": "text_font",
+        "colorShortText": "text_color",
+        "intScaleTypeImage": 0,
+
+        "colorProgressBar":"flashy_color",
+        "colorProgressBarBackground":"background_color_dark",
+        "colorFilterProgressThumb":"flashy_color",
+        "colorFilterButtonAudio":"flashy_color",
+        "backgroundAudio":"primary_color",
+        "colorAudioTextTimeRemaining":"flashy_color"
+      }
+    },
+
+    {
+      "action":"fr.smartapps.smartguide.fragment.POIFatherSonsFragment",
+      "descriptions": {
+        "background": "background_color",
+        "intScaleTypeImage": 0,
+
+
+
+        "backgroundListCell": "#FFFFFF",
+        "backgroundListCellSelected": "#CCCCCC",
+
+
+
+
+        "fontListTitle": "title_font",
+        "fontListSubtitle": "subtitle_font",
+        "colorListTitle": "title_color",
+        "colorListSubtitle": "subtitle_color",
+
+        "colorProgressBar":"flashy_color",
+        "colorProgressBarBackground":"background_color_dark",
+        "colorFilterProgressThumb":"flashy_color",
+        "colorFilterButtonAudio":"flashy_color",
+        "backgroundAudio":"primary_color",
+        "colorAudioTextTimeRemaining":"flashy_color"
+      }
+    },
+
+    {
+      "action":"fr.smartapps.smartguide.fragment.POILongTextFragment",
+      "descriptions": {
+        "background": "background_color",
+        "colorCard": "white",
+        "fontTitle": "title_font",
+        "colorTitle":"title_color",
+        "fontShortText": "text_font",
+        "colorShortText": "text_color",
+        "intScaleTypeImage": 0,
+
+        "colorProgressBar":"flashy_color",
+        "colorProgressBarBackground":"background_color_dark",
+        "colorFilterProgressThumb":"flashy_color",
+        "colorFilterButtonAudio":"flashy_color",
+        "backgroundAudio":"primary_color",
+        "colorAudioTextTimeRemaining":"flashy_color"
+      }
+    },
+
+    {
+      "action":"fr.smartapps.smartguide.activity.LongTextActivity",
+      "descriptions": {
+        "background": "#DD000000",
+        "colorText": "#FFFFFF"
+      }
+    },
+
+    {
+      "action": "fr.smartapps.smartguide.fragment.WebViewFragment",
+      "descriptions": {
+        "background": "background_color",
+        "colorProgressBarFinished": "flashy_color",
+        "colorProgressBarUnfinished": "background_color_dark",
+        "colorProgressText": "flashy_color"
+      }
+    },
+
+    {
+      "action": "fr.smartapps.smartguide.fragment.MediaImageFragment",
+      "descriptions": {
+        "background": "#00000000",
+        "backgroundSummary": "#99000000",
+        "colorTextSummary": "#FFFFFF",
+        "fontTextSummary": ""
+      }
+    },
+
+    {
+      "action":"fr.smartapps.smartguide.activity.TwoStepsPackageActivity",
+      "descriptions": {
+        "textDownloadPackage":"Der Inhalt der Anwendung heruntergeladen werden.",
+        "textUpdatePackage":"Neue Inhalte für Ihre Anwendung zur Verfügung. Würden Sie herunterladen?",
+        "textDownloading":"Laden ...",
+        "textUnzipping":"Strom unzip ...",
+        "textErrorUnzip":"Ein Fehler ist aufgetreten, wenn Dateien zu dekomprimieren. Die Datei ist möglicherweise beschädigt.",
+        "textErrorDownload":"Fehler beim Download bereit. Bitte überprüfen Sie die Verbindung und versuchen Sie es erneut."
+      }
+    },
+
+    {
+      "action":"fr.smartapps.smartguide.activity.VideoActivity",
+      "descriptions": {
+        "colorBackgroundPlayer":"primary_color",
+        "colorButtonPlay":"flashy_color",
+        "colorProgressBarFinished":"flashy_color",
+        "colorProgressBarUnfinished":"background_color_dark",
+        "colorProgressThumb":"flashy_color",
+        "colorProgressTime":"flashy_color"
+      }
+    }
+  ]
+}
