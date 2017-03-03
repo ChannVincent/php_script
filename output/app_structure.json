@@ -1,13 +1,14 @@
 {
     "schemaVersion": 1,
-    "title": "Titre",
+    "title": "Picasso",
     "backgroundSplash": "launch_image.png",
     "action": "fr.smartapps.smartguide.activity.PagerTabActivity",
     "viewControllers": [
         1,
         2,
         3,
-        4
+        4,
+        5
     ],
     "classStyleDescriptions": [
         {
@@ -15,7 +16,7 @@
             "descriptions": {
                 "backgroundNavBar": "navbar_portrait.png",
                 "colorStatusBar": "#000000",
-                "colorTitle": "#111111",
+                "colorTitle": "#0000ff",
                 "fontTitle": "",
                 "colorTintSelectedNavBarButton": "#88ffffff",
                 "colorTintMainIcon": "#ffffff",
@@ -55,10 +56,10 @@
                 "backgroundListCellSelected": "#CCCCCC",
                 "backgroundListCard": "#FFFFFF",
                 "backgroundListCardSelected": "#CCCCCC",
-                "colorCellTitle": "#CCCCCC",
+                "colorCellTitle": "#0000ff",
                 "fontCellTitle": "",
                 "fontCellSubtitle": "",
-                "colorCellSubtitle": "#AAAAAA",
+                "colorCellSubtitle": "#0000ff",
                 "backgroundListHeader": "",
                 "colorListHeadetText": "",
                 "fontListHeaderText": "",
@@ -83,8 +84,8 @@
                 "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
                 "backgroundListCard": "",
                 "backgroundListCardSelected": "",
-                "colorCellTitle": "#CCCCCC",
-                "colorCellSubtitle": "#AAAAAA",
+                "colorCellTitle": "#0000ff",
+                "colorCellSubtitle": "#0000ff",
                 "fontCellTitle": "@fontTitle",
                 "fontCellSubtitle": "@fontCellSubtitle",
                 "backgroundListHeader": "",
@@ -101,9 +102,9 @@
             "action": "fr.smartapps.smartguide.fragment.POIShortTextFragment",
             "descriptions": {
                 "intScaleTypeImage": 0,
-                "colorTitle": "#AAAAAA",
+                "colorTitle": "#0000ff",
                 "fontTitle": "",
-                "colorShortText": "#cccccc",
+                "colorShortText": "#0000ff",
                 "fontShortText": "",
                 "background": "#FFFFFF",
                 "colorCard": "#FFFFFF",
@@ -120,9 +121,9 @@
             "action": "fr.smartapps.smartguide.fragment.POIFullScreenFragment",
             "descriptions": {
                 "intScaleTypeImage": 1,
-                "colorTitle": "#AAAAAA",
+                "colorTitle": "#0000ff",
                 "fontTitle": "",
-                "colorShortText": "#cccccc",
+                "colorShortText": "#0000ff",
                 "fontShortText": "",
                 "background": "#FFFFFF",
                 "colorCard": "#FFFFFF",
@@ -139,9 +140,9 @@
             "action": "fr.smartapps.smartguide.fragment.POIFatherSonsFragment",
             "descriptions": {
                 "intScaleTypeImage": 0,
-                "colorTitle": "#AAAAAA",
+                "colorTitle": "#0000ff",
                 "fontTitle": "",
-                "colorShortText": "#cccccc",
+                "colorShortText": "#0000ff",
                 "fontShortText": "",
                 "background": "#FFFFFF",
                 "colorCard": "#FFFFFF",
@@ -156,17 +157,17 @@
                 "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
                 "fontListTitle": "",
                 "fontListSubtitle": "",
-                "colorListTitle": "#CCCCCC",
-                "colorListSubtitle": "#AAAAAA"
+                "colorListTitle": "#0000ff",
+                "colorListSubtitle": "#0000ff"
             }
         },
         {
             "action": "fr.smartapps.smartguide.fragment.POILongTextFragment",
             "descriptions": {
                 "intScaleTypeImage": 0,
-                "colorTitle": "#AAAAAA",
+                "colorTitle": "#0000ff",
                 "fontTitle": "",
-                "colorShortText": "#cccccc",
+                "colorShortText": "#0000ff",
                 "fontShortText": "",
                 "background": "#FFFFFF",
                 "colorCard": "#FFFFFF",
@@ -236,170 +237,84 @@
     ],
     "viewControllerDescriptions": [
         {
-            "idx": 10,
-            "descriptions": {
-                "title": "Mapa",
-                "tabTitle": "Mapa",
-                "tabIcon": "icon_tab10.png",
-                "selectedTabIcon": "icon_selected_tab10.png",
-                "tour": 1655,
-                "backgroundMapCallout": "#EE555555",
-                "colorMapCalloutText": "#FFFFFF",
-                "fileMapCalloutDisclosure": "map_disclosure.png",
-                "locationIconColor": "#ffffff",
-                "background": "#000000"
-            },
-            "action": "fr.smartapps.smartguide.fragment.MapboxFragment"
-        },
-        {
-            "idx": 11,
-            "descriptions": {
-                "title": "Mapa",
-                "tabTitle": "Mapa",
-                "tabIcon": "icon_tab11.png",
-                "selectedTabIcon": "icon_selected_tab11.png",
-                "tour": 1656,
-                "backgroundMapCallout": "#EE555555",
-                "colorMapCalloutText": "#FFFFFF",
-                "fileMapCalloutDisclosure": "map_disclosure.png",
-                "locationIconColor": "#ffffff",
-                "background": "#000000"
-            },
-            "action": "fr.smartapps.smartguide.fragment.MapboxFragment"
-        },
-        {
-            "idx": 12,
-            "descriptions": {
-                "title": "Mapa",
-                "tabTitle": "Mapa",
-                "tabIcon": "icon_tab12.png",
-                "selectedTabIcon": "icon_selected_tab12.png",
-                "tour": 1657,
-                "backgroundMapCallout": "#EE555555",
-                "colorMapCalloutText": "#FFFFFF",
-                "fileMapCalloutDisclosure": "map_disclosure.png",
-                "locationIconColor": "#ffffff",
-                "background": "#000000"
-            },
-            "action": "fr.smartapps.smartguide.fragment.MapboxFragment"
-        },
-        {
             "idx": 1,
             "descriptions": {
-                "title": "Rutas",
-                "tabTitle": "Rutas",
+                "title": "Intro",
+                "tabTitle": "Intro",
                 "tabIcon": "icon_tab1.png",
                 "selectedTabIcon": "icon_selected_tab1.png",
-                "viewControllers": [
-                    10,
-                    11,
-                    12
-                ],
-                "tabMode": "fragmentContainer",
-                "colorTabSelected": "#aaabcdef",
-                "colorTabUnselected": "#abcdef",
-                "backgroundTabBar": "#ffffff"
-            },
-            "action": "fr.smartapps.smartguide.fragment.TabFragment"
-        },
-        {
-            "idx": 20,
-            "descriptions": {
-                "title": "Rutas",
-                "tabTitle": "Rutas",
-                "tabIcon": "icon_tab20.png",
-                "selectedTabIcon": "icon_selected_tab20.png",
-                "tours": [
-                    1655
-                ],
-                "backgroundListCell": "list_cell_bkg_stretchable.png",
-                "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
-                "colorCellTitle": "#000000",
-                "fileCellIcon": "icon_cellule.png",
-                "fontCellTitle": "",
-                "intScaleTypeImage": 0,
-                "cellType": 1
-            },
-            "action": "fr.smartapps.smartguide.fragment.ListPOIFragment"
-        },
-        {
-            "idx": 21,
-            "descriptions": {
-                "title": "Rutas",
-                "tabTitle": "Rutas",
-                "tabIcon": "icon_tab21.png",
-                "selectedTabIcon": "icon_selected_tab21.png",
-                "tours": [
-                    1656
-                ],
-                "backgroundListCell": "list_cell_bkg_stretchable.png",
-                "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
-                "colorCellTitle": "#000000",
-                "fileCellIcon": "icon_cellule.png",
-                "fontCellTitle": "",
-                "intScaleTypeImage": 0,
-                "cellType": 1
-            },
-            "action": "fr.smartapps.smartguide.fragment.ListPOIFragment"
-        },
-        {
-            "idx": 22,
-            "descriptions": {
-                "title": "Rutas",
-                "tabTitle": "Rutas",
-                "tabIcon": "icon_tab22.png",
-                "selectedTabIcon": "icon_selected_tab22.png",
-                "tours": [
-                    1657
-                ],
-                "backgroundListCell": "list_cell_bkg_stretchable.png",
-                "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
-                "colorCellTitle": "#000000",
-                "fileCellIcon": "icon_cellule.png",
-                "fontCellTitle": "",
-                "intScaleTypeImage": 0,
-                "cellType": 1
-            },
-            "action": "fr.smartapps.smartguide.fragment.ListPOIFragment"
-        },
-        {
-            "idx": 2,
-            "descriptions": {
-                "title": "Mapa",
-                "tabTitle": "Mapa",
-                "tabIcon": "icon_tab2.png",
-                "selectedTabIcon": "icon_selected_tab2.png",
-                "viewControllers": [
-                    20,
-                    21,
-                    22
-                ],
-                "tabMode": "fragmentContainer",
-                "colorTabSelected": "#aaabcdef",
-                "colorTabUnselected": "#abcdef",
-                "backgroundTabBar": "#ffffff"
-            },
-            "action": "fr.smartapps.smartguide.fragment.TabFragment"
-        },
-        {
-            "idx": 3,
-            "descriptions": {
-                "title": "TBC",
-                "tabTitle": "TBC",
-                "tabIcon": "icon_tab3.png",
-                "selectedTabIcon": "icon_selected_tab3.png",
-                "url": "media123"
+                "url": "random"
             },
             "action": "fr.smartapps.smartguide.fragment.WebViewFragment"
         },
         {
+            "idx": 2,
+            "descriptions": {
+                "title": "Visite",
+                "tabTitle": "Visite",
+                "tabIcon": "icon_tab2.png",
+                "selectedTabIcon": "icon_selected_tab2.png",
+                "tours": [
+                    1668
+                ],
+                "backgroundListCell": "list_cell_bkg_stretchable.png",
+                "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
+                "colorCellTitle": "#000000",
+                "fileCellIcon": "icon_cellule.png",
+                "fontCellTitle": "",
+                "intScaleTypeImage": 0,
+                "cellType": 1
+            },
+            "action": "fr.smartapps.smartguide.fragment.ListPOIFragment"
+        },
+        {
+            "idx": 3,
+            "descriptions": {
+                "title": "Plan",
+                "tabTitle": "Plan",
+                "tabIcon": "icon_tab3.png",
+                "selectedTabIcon": "icon_selected_tab3.png",
+                "tour": 1668,
+                "backgroundMapCallout": "#EE555555",
+                "colorMapCalloutText": "#FFFFFF",
+                "fileMapCalloutDisclosure": "map_disclosure.png",
+                "locationIconColor": "#00FFFF",
+                "background": "#FFFF00"
+            },
+            "action": "fr.smartapps.smartguide.fragment.MapFragment"
+        },
+        {
             "idx": 4,
             "descriptions": {
-                "title": "Compra billetes",
-                "tabTitle": "Billetes",
+                "title": "Clavier",
+                "tabTitle": "Clavier",
                 "tabIcon": "icon_tab4.png",
                 "selectedTabIcon": "icon_selected_tab4.png",
-                "url": "media234"
+                "tours": [
+                    1668
+                ],
+                "backgroundColor": "#FFFFFF",
+                "colorTextEnabled": "#FFFFFF",
+                "colorTextDisabled": "#999999",
+                "backgroundButton": "#999999",
+                "backgroundButtonOk": "#ABCABC",
+                "backgroundButtonDelete": "#555555",
+                "colorTextEnabledButtonOk": "#999999",
+                "colorTextButtonDelete": "#999999",
+                "colorInputText": "#000000",
+                "colorFeedbackText": "#555555",
+                "fontFeedbackText": ""
+            },
+            "action": "fr.smartapps.smartguide.fragment.KeypadPOIFragment"
+        },
+        {
+            "idx": 5,
+            "descriptions": {
+                "title": "Informations",
+                "tabTitle": "Info",
+                "tabIcon": "icon_tab5.png",
+                "selectedTabIcon": "icon_selected_tab5.png",
+                "url": "random"
             },
             "action": "fr.smartapps.smartguide.fragment.WebViewFragment"
         }

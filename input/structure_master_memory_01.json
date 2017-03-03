@@ -1,0 +1,89 @@
+{
+  "colors": {
+    "@colorNavBarTitle": "#111111",
+    "@colorListTitle": "#CCCCCC",
+    "@colorListSubtitle": "#AAAAAA",
+    "@colorPOITitle": "#AAAAAA",
+    "@colorPOISubtitle": "#ffffff",
+    "@colorPOIText": "#cccccc",
+    "@colorTabSelected":"#aaabcdef",
+    "@colorTab":"#abcdef",
+    "@colorAccent":"#ffffff",
+    "@colorBackground":"#000000"
+  },
+
+  "fonts": {
+    "@mainFont":"",
+    "@subtitleFont":"",
+    "@textFont":""
+  },
+
+  "framework":"tab",
+  "hideBackButtonTextIOS": true,
+  "title":"Titre",
+
+  "menus": [
+    {
+      "name":"toggle",
+      "title":"Rutas",
+      "tabTitle":"Rutas",
+      "menus":[
+        {
+          "name":"mapbox",
+          "title":"Mapa",
+          "tour": 1655
+        },
+        {
+          "name":"mapbox",
+          "title":"Mapa",
+          "tour": 1656
+        },
+        {
+          "name":"mapbox",
+          "title":"Mapa",
+          "tour": 1657
+        }
+      ]
+    },
+    {
+      "name":"toggle",
+      "title":"Mapa",
+      "tabTitle":"Mapa",
+      "menus":[
+        {
+          "name":"list",
+          "title":"Rutas",
+          "tours":[
+            1655
+          ]
+        },
+        {
+          "name":"list",
+          "title":"Rutas",
+          "tours":[
+            1656
+          ]
+        },
+        {
+          "name":"list",
+          "title":"Rutas",
+          "tours":[
+            1657
+          ]
+        }
+      ]
+    },
+    {
+      "name":"web",
+      "title":"TBC",
+      "tabTitle":"TBC",
+      "url":"media123"
+    },
+    {
+      "name":"web",
+      "title":"Compra billetes",
+      "tabTitle":"Billetes",
+      "url":"media234"
+    }
+  ]
+}

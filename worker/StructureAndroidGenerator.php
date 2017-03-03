@@ -40,7 +40,7 @@ class StructureAndroidGenerator extends BaseWorker
     public function run()
     {
         $this->_output_structure_android = new StdClass();
-        $this->setInitStructure();
+        $this->setDefaultStructure();
         $this->setAllViewControllers();
 
         print_r($this->_output_structure_android);
@@ -100,6 +100,12 @@ class StructureAndroidGenerator extends BaseWorker
                 $vc->descriptions->tour = $menu->tour;
                 break;
 
+            case "keypad";
+                $genericViewController = $this->getGenericViewController("keypad");
+                $vc->action = $genericViewController->action;
+                $vc->descriptions->tours = $menu->tours;
+                break;
+
             case "toggle";
                 $genericViewController = $this->getGenericViewController("toggle");
                 $vc->action = $genericViewController->action;
@@ -141,7 +147,7 @@ class StructureAndroidGenerator extends BaseWorker
     /*
      * Init structure
      */
-    public function setInitStructure()
+    public function setDefaultStructure()
     {
         $this->_output_structure_android->schemaVersion = 1;
         $this->_output_structure_android->title = $this->_structure_master->title;

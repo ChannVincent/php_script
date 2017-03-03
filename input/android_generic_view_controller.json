@@ -48,6 +48,24 @@
     "name":"web",
     "action":"fr.smartapps.smartguide.fragment.WebViewFragment",
     "descriptions": {
+
+    }
+  },
+  {
+    "name":"keypad",
+    "action":"fr.smartapps.smartguide.fragment.KeypadPOIFragment",
+    "descriptions": {
+      "backgroundColor": "#FFFFFF",
+      "colorTextEnabled": "#FFFFFF",
+      "colorTextDisabled": "#999999",
+      "backgroundButton": "#999999",
+      "backgroundButtonOk": "#ABCABC",
+      "backgroundButtonDelete": "#555555",
+      "colorTextEnabledButtonOk": "#999999",
+      "colorTextButtonDelete": "#999999",
+      "colorInputText": "#000000",
+      "colorFeedbackText": "#555555",
+      "fontFeedbackText": "@mainFont"
     }
   }
 ]
