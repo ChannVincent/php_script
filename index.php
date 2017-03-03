@@ -31,6 +31,10 @@ $default_directory = $base_directory.DS."default";
 $worker = new StructureAndroidGenerator($base_directory, $input_directory, $output_directory);
 $worker->run();
 
+$worker = new StructureIOSGenerator($base_directory, $input_directory, $output_directory);
+$worker->run();
+
+
 /*
 $worker = new ZipDividerWorker($base_directory, $input_directory, $output_directory);
 $worker->run();

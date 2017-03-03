@@ -1,0 +1,29 @@
+[
+  {
+    "name": "list",
+    "action": "POIListViewController",
+    "description": {
+      "cellIdentifier": "POIParcoursCell",
+      "presentationStyle": 1,
+      "navBarColor": "#FFFFFF",
+      "navBarTextColor": "#000000",
+      "imageNavBarPortraitStretchable": "navbar_portrait_stretchable",
+      "imageNavBarLandscapeStretchable": "navbar_landscape_stretchable",
+      "listCellBkgStretchable": "list_cell_bkg_stretchable"
+    }
+  },
+  {
+    "name": "web",
+    "action": "WebViewController",
+    "description": {
+      "showTitle": false,
+      "pageBounce": false,
+      "embeddedNavigation": true,
+      "showToolbar": false,
+      "navBarColor": "#FFFFFF",
+      "navBarTextColor": "#000000",
+      "imageNavBarPortraitStretchable": "navbar_portrait_stretchable",
+      "imageNavBarLandscapeStretchable": "navbar_landscape_stretchable"
+    }
+  }
+]

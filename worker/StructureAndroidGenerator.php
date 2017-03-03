@@ -44,7 +44,7 @@ class StructureAndroidGenerator extends BaseWorker
         $this->setAllViewControllers();
 
         print_r($this->_output_structure_android);
-        file_put_contents($this->_output_directory . DS . "app_structure.json", json_encode($this->_output_structure_android, JSON_PRETTY_PRINT));
+        file_put_contents($this->_output_directory . DS . "app_structure_android.json", json_encode($this->_output_structure_android, JSON_PRETTY_PRINT));
     }
 
     /*

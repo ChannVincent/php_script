@@ -1,0 +1,89 @@
+navigation-bar {
+    -ios-tint-color: #FFFF00;
+}
+
+navigation-bar title {
+    color: #0000ff;
+}
+
+toolbar {
+    -ios-tint-color: #FFFF00;
+}
+
+tab-bar {
+    background-color: #00FF00;
+}
+
+tab-bar-item {
+    color: #00FF00;
+    font-size: 12px;
+}
+
+tab-bar-item:selected {
+    color: #00FFFF;
+    font-size: 12px;
+}
+
+segmented-control {
+    -ios-tint-color: #ffffff;
+}
+
+table-view {
+    separator-style: none;
+    background-color: #FFFF00;
+    color: #0000ff;
+}
+
+#custom_player_son_title {
+    font-size: 25px;
+}
+
+#list_title{
+    color: #0000ff;
+}
+
+#list_title:highlighted{
+    color: #252525;
+}
+
+#list_subtitle {
+    color: #0000ff;
+}
+
+#list_subtitle:highlighted {
+    color: #666666;
+}
+
+#table-view-headerfooter-view{
+    color: #00FFFF;
+    background-color: #FFFF00;
+    border-bottom: 1px solid #00FFFF;
+}
+
+#short_text {
+    color: #0000ff;
+    background-color: #FFFF00;
+    text-align: left;
+}
+
+#long_text {
+    color: #0000ff;
+    background-color: #FFFF00;
+    text-align: left;
+}
+
+#player2 {
+    background-color: #FFFF00,
+}
+
+#player3 {
+    background-color: #FFFF00,
+}
+
+#player4 {
+    background-color: #FFFF00,
+}
+
+#player5 {
+    background-color: #FFFF00,
+}

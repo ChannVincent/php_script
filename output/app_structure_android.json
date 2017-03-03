@@ -5,10 +5,7 @@
     "action": "fr.smartapps.smartguide.activity.PagerTabActivity",
     "viewControllers": [
         1,
-        2,
-        3,
-        4,
-        5
+        2
     ],
     "classStyleDescriptions": [
         {
@@ -266,57 +263,6 @@
                 "cellType": 1
             },
             "action": "fr.smartapps.smartguide.fragment.ListPOIFragment"
-        },
-        {
-            "idx": 3,
-            "descriptions": {
-                "title": "Plan",
-                "tabTitle": "Plan",
-                "tabIcon": "icon_tab3.png",
-                "selectedTabIcon": "icon_selected_tab3.png",
-                "tour": 1668,
-                "backgroundMapCallout": "#EE555555",
-                "colorMapCalloutText": "#FFFFFF",
-                "fileMapCalloutDisclosure": "map_disclosure.png",
-                "locationIconColor": "#00FFFF",
-                "background": "#FFFF00"
-            },
-            "action": "fr.smartapps.smartguide.fragment.MapFragment"
-        },
-        {
-            "idx": 4,
-            "descriptions": {
-                "title": "Clavier",
-                "tabTitle": "Clavier",
-                "tabIcon": "icon_tab4.png",
-                "selectedTabIcon": "icon_selected_tab4.png",
-                "tours": [
-                    1668
-                ],
-                "backgroundColor": "#FFFFFF",
-                "colorTextEnabled": "#FFFFFF",
-                "colorTextDisabled": "#999999",
-                "backgroundButton": "#999999",
-                "backgroundButtonOk": "#ABCABC",
-                "backgroundButtonDelete": "#555555",
-                "colorTextEnabledButtonOk": "#999999",
-                "colorTextButtonDelete": "#999999",
-                "colorInputText": "#000000",
-                "colorFeedbackText": "#555555",
-                "fontFeedbackText": ""
-            },
-            "action": "fr.smartapps.smartguide.fragment.KeypadPOIFragment"
-        },
-        {
-            "idx": 5,
-            "descriptions": {
-                "title": "Informations",
-                "tabTitle": "Info",
-                "tabIcon": "icon_tab5.png",
-                "selectedTabIcon": "icon_selected_tab5.png",
-                "url": "random"
-            },
-            "action": "fr.smartapps.smartguide.fragment.WebViewFragment"
         }
     ]
 }

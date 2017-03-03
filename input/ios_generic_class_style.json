@@ -1,0 +1,25 @@
+[
+  {
+    "defaultClassStyle": true,
+    "idx": 2,
+    "class": "PoiViewer",
+    "imageFooterStretchable": "player_footer_stretchable"
+  },
+  {
+    "defaultClassStyle": true,
+    "idx": 3,
+    "class": "PoiViewer2",
+    "imageFooterStretchable": "player_footer_stretchable"
+  },
+  {
+    "defaultClassStyle": true,
+    "idx": 4,
+    "class": "PoiViewer3"
+  },
+  {
+    "defaultClassStyle": true,
+    "idx": 5,
+    "class": "PoiViewer4",
+    "imageFooterStretchable": "player_footer_stretchable"
+  }
+]

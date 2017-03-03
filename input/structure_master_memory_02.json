@@ -36,6 +36,26 @@
       "tours":[
         1668
       ]
+    },
+    {
+      "name":"map",
+      "title":"Plan",
+      "tabTitle":"Plan",
+      "tour": 1668
+    },
+    {
+      "name":"keypad",
+      "title":"Clavier",
+      "tabTitle":"Clavier",
+      "tours": [
+        1668
+      ]
+    },
+    {
+      "name":"web",
+      "title":"Informations",
+      "tabTitle":"Info",
+      "url":"random"
     }
   ]
 }

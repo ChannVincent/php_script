@@ -1,0 +1,57 @@
+{
+    "schemaVersion": 1,
+    "startControllerId": 1,
+    "title": "Picasso",
+    "backgroundSplash": "launch_image.png",
+    "classStyleDescriptions": [
+        {
+            "defaultClassStyle": true,
+            "idx": 2,
+            "class": "PoiViewer",
+            "imageFooterStretchable": "player_footer_stretchable"
+        },
+        {
+            "defaultClassStyle": true,
+            "idx": 3,
+            "class": "PoiViewer2",
+            "imageFooterStretchable": "player_footer_stretchable"
+        },
+        {
+            "defaultClassStyle": true,
+            "idx": 4,
+            "class": "PoiViewer3"
+        },
+        {
+            "defaultClassStyle": true,
+            "idx": 5,
+            "class": "PoiViewer4",
+            "imageFooterStretchable": "player_footer_stretchable"
+        }
+    ],
+    "viewControllerDescriptions": [
+        {
+            "idx": 1,
+            "descriptions": {
+                "title": "Intro",
+                "tabTitle": "Intro",
+                "tabIcon": "icon_tab1.png",
+                "selectedTabIcon": "icon_selected_tab1.png",
+                "action": "WebViewController",
+                "url": "random"
+            }
+        },
+        {
+            "idx": 2,
+            "descriptions": {
+                "title": "Visite",
+                "tabTitle": "Visite",
+                "tabIcon": "icon_tab2.png",
+                "selectedTabIcon": "icon_selected_tab2.png",
+                "action": "POIListViewController",
+                "tours": [
+                    1668
+                ]
+            }
+        }
+    ]
+}

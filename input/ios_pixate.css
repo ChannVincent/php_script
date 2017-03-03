@@ -1,0 +1,89 @@
+navigation-bar {
+    -ios-tint-color: @colorBackground;
+}
+
+navigation-bar title {
+    color: @colorNavBarTitle;
+}
+
+toolbar {
+    -ios-tint-color: @colorBackground;
+}
+
+tab-bar {
+    background-color: @colorTab;
+}
+
+tab-bar-item {
+    color: @colorTab;
+    font-size: 12px;
+}
+
+tab-bar-item:selected {
+    color: @colorTabSelected;
+    font-size: 12px;
+}
+
+segmented-control {
+    -ios-tint-color: #ffffff;
+}
+
+table-view {
+    separator-style: none;
+    background-color: @colorBackground;
+    color: @colorPOIText;
+}
+
+#custom_player_son_title {
+    font-size: 25px;
+}
+
+#list_title{
+    color: @colorListTitle;
+}
+
+#list_title:highlighted{
+    color: #252525;
+}
+
+#list_subtitle {
+    color: @colorListSubtitle;
+}
+
+#list_subtitle:highlighted {
+    color: #666666;
+}
+
+#table-view-headerfooter-view{
+    color: @colorAccent;
+    background-color: @colorBackground;
+    border-bottom: 1px solid @colorAccent;
+}
+
+#short_text {
+    color: @colorPOIText;
+    background-color: @colorBackground;
+    text-align: left;
+}
+
+#long_text {
+    color: @colorPOIText;
+    background-color: @colorBackground;
+    text-align: left;
+}
+
+#player2 {
+    background-color: @colorBackground,
+}
+
+#player3 {
+    background-color: @colorBackground,
+}
+
+#player4 {
+    background-color: @colorBackground,
+}
+
+#player5 {
+    background-color: @colorBackground,
+}
