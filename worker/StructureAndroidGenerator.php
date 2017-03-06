@@ -76,6 +76,7 @@ class StructureAndroidGenerator extends BaseWorker
 
         $genericViewController = new stdClass();
         switch ($menu->name) {
+
             case "web";
                 $genericViewController = $this->getGenericViewController("web");
                 $vc->action = $genericViewController->action;
@@ -128,6 +129,36 @@ class StructureAndroidGenerator extends BaseWorker
                     $array[$position] = $idx * 10 + $position;
                 }
                 $vc->descriptions->viewControllers = $array;
+                break;
+
+            case "poiShortText";
+                $genericViewController = $this->getGenericViewController("poiShortText");
+                $vc->action = $genericViewController->action;
+                $vc->descriptions->poiIdx = $menu->poiIdx;
+                break;
+
+            case "poiLongText";
+                $genericViewController = $this->getGenericViewController("poiLongText");
+                $vc->action = $genericViewController->action;
+                $vc->descriptions->poiIdx = $menu->poiIdx;
+                break;
+
+            case "poiFatherSon";
+                $genericViewController = $this->getGenericViewController("poiFatherSon");
+                $vc->action = $genericViewController->action;
+                $vc->descriptions->poiIdx = $menu->poiIdx;
+                break;
+
+            case "poiFullScreen";
+                $genericViewController = $this->getGenericViewController("poiFullScreen");
+                $vc->action = $genericViewController->action;
+                $vc->descriptions->poiIdx = $menu->poiIdx;
+                break;
+
+            case "poiWebView";
+                $genericViewController = $this->getGenericViewController("poiWebView");
+                $vc->action = $genericViewController->action;
+                $vc->descriptions->poiIdx = $menu->poiIdx;
                 break;
         }
 

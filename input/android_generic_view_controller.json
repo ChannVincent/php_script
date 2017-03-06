@@ -58,6 +58,41 @@
     }
   },
   {
+    "name":"poiShortText",
+    "action":"fr.smartapps.smartguide.fragment.POIShortTextFragment",
+    "descriptions": {
+
+    }
+  },
+  {
+    "name":"poiLongText",
+    "action":"fr.smartapps.smartguide.fragment.POILongTextFragment",
+    "descriptions": {
+
+    }
+  },
+  {
+    "name":"poiFatherSon",
+    "action":"fr.smartapps.smartguide.fragment.POIFatherSonsFragment",
+    "descriptions": {
+
+    }
+  },
+  {
+    "name":"poiFullScreen",
+    "action":"fr.smartapps.smartguide.fragment.POIFullScreenFragment",
+    "descriptions": {
+
+    }
+  },
+  {
+    "name":"poiWebView",
+    "action":"fr.smartapps.smartguide.fragment.POIWebFragment",
+    "descriptions": {
+
+    }
+  },
+  {
     "name":"keypad",
     "action":"fr.smartapps.smartguide.fragment.KeypadPOIFragment",
     "descriptions": {
