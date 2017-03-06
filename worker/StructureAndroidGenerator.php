@@ -135,30 +135,35 @@ class StructureAndroidGenerator extends BaseWorker
                 $genericViewController = $this->getGenericViewController("poiShortText");
                 $vc->action = $genericViewController->action;
                 $vc->descriptions->poiIdx = $menu->poiIdx;
+                $vc->descriptions->tourIdx = $menu->tourIdx;
                 break;
 
             case "poiLongText";
                 $genericViewController = $this->getGenericViewController("poiLongText");
                 $vc->action = $genericViewController->action;
                 $vc->descriptions->poiIdx = $menu->poiIdx;
+                $vc->descriptions->tourIdx = $menu->tourIdx;
                 break;
 
             case "poiFatherSon";
                 $genericViewController = $this->getGenericViewController("poiFatherSon");
                 $vc->action = $genericViewController->action;
                 $vc->descriptions->poiIdx = $menu->poiIdx;
+                $vc->descriptions->tourIdx = $menu->tourIdx;
                 break;
 
             case "poiFullScreen";
                 $genericViewController = $this->getGenericViewController("poiFullScreen");
                 $vc->action = $genericViewController->action;
                 $vc->descriptions->poiIdx = $menu->poiIdx;
+                $vc->descriptions->tourIdx = $menu->tourIdx;
                 break;
 
             case "poiWebView";
                 $genericViewController = $this->getGenericViewController("poiWebView");
                 $vc->action = $genericViewController->action;
                 $vc->descriptions->poiIdx = $menu->poiIdx;
+                $vc->descriptions->tourIdx = $menu->tourIdx;
                 break;
         }
 
