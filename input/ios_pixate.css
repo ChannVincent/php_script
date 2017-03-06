@@ -73,15 +73,15 @@ table-view {
 }
 
 #player2 {
-    background-color: @colorBackground,
+    background-color: @colorBackground;
 }
 
 #player3 {
-    background-color: @colorBackground,
+    background-color: @colorBackground;
 }
 
 #player4 {
-    background-color: @colorBackground,
+    background-color: @colorBackground;
 }
 
 #player5 {
