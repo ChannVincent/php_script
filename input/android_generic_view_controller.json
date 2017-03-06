@@ -38,14 +38,21 @@
     }
   },
   {
-    "name":"list",
+    "name": "list",
     "action": "fr.smartapps.smartguide.fragment.ListPOIFragment",
     "descriptions": {
       "backgroundListCell": "list_cell_bkg_stretchable.png",
       "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
-      "colorCellTitle": "#000000",
-      "fileCellIcon": "icon_cellule.png",
+      "backgroundListCard": "#ffffff",
+      "backgroundListCardSelected": "#aaaaaa",
+      "colorCellTitle": "@colorListTitle",
+      "colorCellSubtitle": "@colorListSubtitle",
       "fontCellTitle": "@mainFont",
+      "fontCellSubtitle": "@subtitleFont",
+      "backgroundListHeader": "@colorAccent",
+      "colorListHeaderText": "#ffffff",
+      "fontListHeaderText": "@mainFont",
+      "fileCellIcon": "icon_cellule.png",
       "intScaleTypeImage": 0,
       "cellType": 1
     }
