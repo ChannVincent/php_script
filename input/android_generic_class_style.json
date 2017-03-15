@@ -176,7 +176,7 @@
   {
     "action":"fr.smartapps.smartguide.fragment.WebViewFragment",
     "descriptions":{
-      "background":"#@backgroundWeb",
+      "background":"@backgroundWeb",
       "colorProgressBarFinished":"#41475f",
       "colorProgressBarUnfinished":"#EEEEEE",
       "colorProgressText":"#41475f"
