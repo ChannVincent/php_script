@@ -9,7 +9,23 @@
     "@colorTabSelected":"#00FFFF",
     "@colorTab":"#00FF00",
     "@colorAccent":"#00FFFF",
-    "@colorBackground":"#FFFF00"
+    "@colorBackground":"#FFFF00",
+    "@colorPOICard": "#ffffff",
+    "@colorLongText": "#ffffff",
+    "@colorTextBottomTabSelected": "#000000",
+    "@colorTextBottomTab": "#aaaaaa"
+  },
+
+  "background": {
+    "@backgroundBottomTabBar": "#ffffff",
+    "@backgroundTopTabBar": "#cccccc",
+    "@backgroundListCell" :"#ffffff",
+    "@backgroundListCellSelected": "#cccccc",
+    "@backgroundList": "#ffffff",
+    "@backgroundPOI": "#ffffff",
+    "@backgroundAudio": "#565555",
+    "@backgroundLongText": "#DD000000",
+    "@backgroundWeb": "#ffffff"
   },
 
   "fonts": {

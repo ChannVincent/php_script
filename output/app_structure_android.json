@@ -254,11 +254,18 @@
                 "tours": [
                     1668
                 ],
-                "backgroundListCell": "list_cell_bkg_stretchable.png",
-                "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
-                "colorCellTitle": "#000000",
-                "fileCellIcon": "icon_cellule.png",
+                "backgroundListCell": "#ffffff",
+                "backgroundListCellSelected": "#ffffffSelected",
+                "colorBackgroundListCard": "",
+                "colorBackgroundListCardSelected": "",
+                "colorCellTitle": "#0000ff",
+                "colorCellSubtitle": "#0000ff",
                 "fontCellTitle": "",
+                "fontCellSubtitle": "",
+                "backgroundListHeader": "#00FFFF",
+                "colorListHeaderText": "#ffffff",
+                "fontListHeaderText": "",
+                "fileCellIcon": "icon_cellule.png",
                 "intScaleTypeImage": 0,
                 "cellType": 1
             },

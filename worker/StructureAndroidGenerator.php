@@ -201,10 +201,15 @@ class StructureAndroidGenerator extends BaseWorker
         $this->_output_structure_android->title = $this->_structure_master->title;
         $this->_output_structure_android->backgroundSplash = "launch_image.png";
 
+        // set framework
         switch ($this->_structure_master->framework)
         {
             case "tab":
                 $this->_output_structure_android->action = "fr.smartapps.smartguide.activity.PagerTabActivity";
+                break;
+
+            case "multi-language":
+                $this->_output_structure_android->action = "fr.smartapps.smartguide.activity.TwoStepsPackageActivity";
                 break;
         }
 
@@ -220,6 +225,7 @@ class StructureAndroidGenerator extends BaseWorker
         $content = file_get_contents($this->_input_directory.DS.$this->_input_file_generic_view_controller);
         $content = str_replace(array_keys(get_object_vars($this->_structure_master->colors)), array_values(get_object_vars($this->_structure_master->colors)), $content);
         $content = str_replace(array_keys(get_object_vars($this->_structure_master->fonts)), array_values(get_object_vars($this->_structure_master->fonts)), $content);
+        $content = str_replace(array_keys(get_object_vars($this->_structure_master->background)), array_values(get_object_vars($this->_structure_master->background)), $content);
 
         return $content;
     }
@@ -229,6 +235,7 @@ class StructureAndroidGenerator extends BaseWorker
         $content = file_get_contents($this->_input_directory.DS.$this->_input_file_generic_class_style);
         $content = str_replace(array_keys(get_object_vars($this->_structure_master->colors)), array_values(get_object_vars($this->_structure_master->colors)), $content);
         $content = str_replace(array_keys(get_object_vars($this->_structure_master->fonts)), array_values(get_object_vars($this->_structure_master->fonts)), $content);
+        $content = str_replace(array_keys(get_object_vars($this->_structure_master->background)), array_values(get_object_vars($this->_structure_master->background)), $content);
 
         return $content;
     }
