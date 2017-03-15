@@ -12,8 +12,8 @@
     "@colorBackground":"#FFFF00",
     "@colorPOICard": "#ffffff",
     "@colorLongText": "#ffffff",
-    "@colorTextBottomTabSelected": "#000000",
-    "@colorTextBottomTab": "#aaaaaa"
+    "@colorBottomTabSelected": "#000000",
+    "@colorBottomTab": "#aaaaaa"
   },
 
   "background": {
