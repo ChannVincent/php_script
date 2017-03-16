@@ -3,9 +3,9 @@
     "name":"toggle",
     "action": "fr.smartapps.smartguide.fragment.TabFragment",
     "descriptions": {
-      "colorTabSelected": "@colorTopTabSelected",
-      "colorTabUnselected": "@colorTopTab",
-      "backgroundTabBar": "@backgroundTopTabBar"
+      "colorTabSelected": "@colorTopTabSelectedTitle",
+      "colorTabUnselected": "@colorTopTabTitle",
+      "backgroundTabBar": "tab_bg_top.png"
     }
   },
   {
@@ -41,8 +41,9 @@
     "name": "list",
     "action": "fr.smartapps.smartguide.fragment.ListPOIFragment",
     "descriptions": {
-      "backgroundListCell": "@backgroundListCell",
-      "backgroundListCellSelected": "@backgroundListCellSelected",
+      "background":"@colorBackground",
+      "backgroundListCell": "list_cell_bkg_stretchable.png",
+      "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
       "colorBackgroundListCard": "",
       "colorBackgroundListCardSelected": "",
       "colorCellTitle": "@colorListTitle",

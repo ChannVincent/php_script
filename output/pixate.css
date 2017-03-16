@@ -11,16 +11,16 @@ toolbar {
 }
 
 tab-bar {
-    background-color: #00FF00;
+    background-color: @colorTab;
 }
 
 tab-bar-item {
-    color: #00FF00;
+    color: @colorTab;
     font-size: 12px;
 }
 
 tab-bar-item:selected {
-    color: #00FFFF;
+    color: @colorTabSelected;
     font-size: 12px;
 }
 

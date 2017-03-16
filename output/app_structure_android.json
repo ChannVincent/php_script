@@ -34,7 +34,7 @@
         {
             "action": "fr.smartapps.smartguide.activity.PagerTabActivity",
             "descriptions": {
-                "backgroundTabBar": "#ffffff",
+                "backgroundTabBar": "tab_bg_bottom.png",
                 "colorTabIconSelected": "#000000",
                 "colorTabIconUnselected": "#aaaaaa",
                 "fontTabTitle": "",
@@ -77,9 +77,9 @@
                 "cellType": 1,
                 "intScaleTypeImage": 0,
                 "intGridColumn": 1,
-                "background": "#ffffff",
-                "backgroundListCell": "#ffffff",
-                "backgroundListCellSelected": "#ffffffSelected",
+                "background": "#FFFF00",
+                "backgroundListCell": "list_cell_bkg_stretchable.png",
+                "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
                 "colorBackgroundListCard": "",
                 "colorBackgroundListCardSelected": "",
                 "colorCellTitle": "#0000ff",
@@ -103,7 +103,7 @@
                 "fontTitle": "",
                 "colorShortText": "#0000ff",
                 "fontShortText": "",
-                "background": "#ffffff",
+                "background": "#FFFF00",
                 "colorCard": "#ffffff",
                 "colorProgressBar": "#999999",
                 "colorProgressBarBackground": "#ffffff",
@@ -121,7 +121,7 @@
                 "fontTitle": "",
                 "colorShortText": "#0000ff",
                 "fontShortText": "",
-                "background": "#ffffff",
+                "background": "#FFFF00",
                 "colorCard": "#ffffff",
                 "colorProgressBar": "#999999",
                 "colorProgressBarBackground": "#ffffff",
@@ -139,7 +139,7 @@
                 "fontTitle": "",
                 "colorShortText": "#0000ff",
                 "fontShortText": "",
-                "background": "#ffffff",
+                "background": "#FFFF00",
                 "colorCard": "#ffffff",
                 "colorProgressBar": "#999999",
                 "colorProgressBarBackground": "#ffffff",
@@ -147,8 +147,8 @@
                 "fileProgressBarThumb": "",
                 "backgroundAudio": "#565555",
                 "colorAudioTextTimeRemaining": "#ffffff",
-                "backgroundListCell": "#ffffff",
-                "backgroundListCellSelected": "#ffffffSelected",
+                "backgroundListCell": "list_cell_bkg_stretchable.png",
+                "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
                 "fontListTitle": "",
                 "fontListSubtitle": "",
                 "colorListTitle": "#0000ff",
@@ -163,7 +163,7 @@
                 "fontTitle": "",
                 "colorShortText": "#0000ff",
                 "fontShortText": "",
-                "background": "#ffffff",
+                "background": "#FFFF00",
                 "colorCard": "#ffffff",
                 "colorProgressBar": "#999999",
                 "colorProgressBarBackground": "#ffffff",
@@ -185,10 +185,10 @@
         {
             "action": "fr.smartapps.smartguide.fragment.WebViewFragment",
             "descriptions": {
-                "background": "##ffffff",
-                "colorProgressBarFinished": "#41475f",
+                "background": "#FFFF00",
+                "colorProgressBarFinished": "#00FFFF",
                 "colorProgressBarUnfinished": "#EEEEEE",
-                "colorProgressText": "#41475f"
+                "colorProgressText": "#00FFFF"
             }
         },
         {
@@ -211,15 +211,15 @@
         {
             "action": "fr.smartapps.smartguide.activity.TwoStepsPackageActivity",
             "descriptions": {
-                "color2stepsProgressFinished": "#41475f",
+                "color2stepsProgressFinished": "#00FFFF",
                 "color2stepsProgressUnfinished": "#CCCCCC",
-                "color2stepsText": "#41475f"
+                "color2stepsText": "#00FFFF"
             }
         },
         {
             "action": "fr.smartapps.smartguide.activity.VideoActivity",
             "descriptions": {
-                "colorBackgroundPlayer": "#252525",
+                "colorBackgroundPlayer": "#565555",
                 "colorButtonPlay": "#ffffff",
                 "colorProgressBarFinished": "#ffffff",
                 "colorProgressBarUnfinished": "#999999",
@@ -250,8 +250,9 @@
                 "tours": [
                     1668
                 ],
-                "backgroundListCell": "#ffffff",
-                "backgroundListCellSelected": "#ffffffSelected",
+                "background": "#FFFF00",
+                "backgroundListCell": "list_cell_bkg_stretchable.png",
+                "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
                 "colorBackgroundListCard": "",
                 "colorBackgroundListCardSelected": "",
                 "colorCellTitle": "#0000ff",

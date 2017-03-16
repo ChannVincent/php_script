@@ -1,31 +1,21 @@
 {
   "colors": {
-    "@colorNavBarTitle": "#0000ff",
     "@colorListTitle": "#0000ff",
     "@colorListSubtitle": "#0000ff",
+
     "@colorPOITitle": "#0000ff",
     "@colorPOISubtitle": "#0000ff",
     "@colorPOIText": "#0000ff",
-    "@colorTabSelected":"#00FFFF",
-    "@colorTab":"#00FF00",
-    "@colorAccent":"#00FFFF",
-    "@colorBackground":"#FFFF00",
-    "@colorPOICard": "#ffffff",
-    "@colorLongText": "#ffffff",
-    "@colorBottomTabSelected": "#000000",
-    "@colorBottomTab": "#aaaaaa"
-  },
 
-  "background": {
-    "@backgroundBottomTabBar": "#ffffff",
-    "@backgroundTopTabBar": "#cccccc",
-    "@backgroundListCell" :"#ffffff",
-    "@backgroundListCellSelected": "#cccccc",
-    "@backgroundList": "#ffffff",
-    "@backgroundPOI": "#ffffff",
-    "@backgroundAudio": "#565555",
-    "@backgroundLongText": "#DD000000",
-    "@backgroundWeb": "#ffffff"
+    "@colorNavBarTitle": "#0000ff",
+    "@colorTopTabSelectedTitle":"#00FFFF",
+    "@colorTopTabTitle":"#00FF00",
+    "@colorBottomTabSelectedTitle": "#000000",
+    "@colorBottomTabTitle": "#aaaaaa",
+
+    "@colorAccent":"#00FFFF",
+    "@colorBackgroundAudio": "#565555",
+    "@colorBackground":"#FFFF00"
   },
 
   "fonts": {
