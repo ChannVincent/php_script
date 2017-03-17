@@ -1,15 +1,21 @@
 {
   "colors": {
-    "@colorNavBarTitle": "#111111",
-    "@colorListTitle": "#CCCCCC",
-    "@colorListSubtitle": "#AAAAAA",
-    "@colorPOITitle": "#AAAAAA",
-    "@colorPOISubtitle": "#ffffff",
-    "@colorPOIText": "#cccccc",
-    "@colorTabSelected":"#aaabcdef",
-    "@colorTab":"#abcdef",
-    "@colorAccent":"#ffffff",
-    "@colorBackground":"#000000"
+    "@colorListTitle": "#0000ff",
+    "@colorListSubtitle": "#0000ff",
+
+    "@colorPOITitle": "#0000ff",
+    "@colorPOISubtitle": "#0000ff",
+    "@colorPOIText": "#0000ff",
+
+    "@colorNavBarTitle": "#0000ff",
+    "@colorTopTabSelectedTitle":"#00FFFF",
+    "@colorTopTabTitle":"#00FF00",
+    "@colorBottomTabSelectedTitle": "#000000",
+    "@colorBottomTabTitle": "#aaaaaa",
+
+    "@colorAccent":"#00FFFF",
+    "@colorBackgroundAudio": "#565555",
+    "@colorBackground":"#FFFF00"
   },
 
   "fonts": {
@@ -45,6 +51,7 @@
         }
       ]
     },
+
     {
       "name":"toggle",
       "title":"Mapa",
@@ -73,18 +80,21 @@
         }
       ]
     },
+
     {
       "name":"web",
       "title":"TBC",
       "tabTitle":"TBC",
       "url":"media123"
     },
+
     {
       "name":"web",
       "title":"Compra billetes",
       "tabTitle":"Billetes",
       "url":"media234"
     },
+
     {
       "name":"switcher",
       "title":"Switch",
