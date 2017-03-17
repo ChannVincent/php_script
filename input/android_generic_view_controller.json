@@ -116,5 +116,12 @@
       "colorFeedbackText": "#555555",
       "fontFeedbackText": "@mainFont"
     }
+  },
+  {
+    "name":"selfie",
+    "action":"fr.smartapps.smartguide.fragment.SelfieFragment",
+    "descriptions": {
+
+    }
   }
 ]

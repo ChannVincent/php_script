@@ -165,6 +165,11 @@ class StructureAndroidGenerator extends BaseWorker
                 $vc->descriptions->poiIdx = $menu->poiIdx;
                 $vc->descriptions->tourIdx = $menu->tourIdx;
                 break;
+
+            case "selfie";
+                $genericViewController = $this->getGenericViewController("selfie");
+                $vc->action = $genericViewController->action;
+
         }
 
         foreach (get_object_vars($genericViewController->descriptions) as $key => $value) {
