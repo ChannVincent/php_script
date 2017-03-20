@@ -118,6 +118,52 @@
     }
   },
   {
+    "name":"lexique",
+    "action":"fr.smartapps.smartguide.fragment.LexiqueFragment",
+    "descriptions": {
+      "background":"@colorBackground",
+      "colorCellTitle": "#000000",
+      "colorCellSubtitle": "#5c5c5c",
+      "fontCellTitle": "@mainFont",
+      "fontCellSubtitle": "@subtitleFont",
+      "colorSearchBarBackground":"#41475f",
+      "colorSearchBarTextColor":"#ffffff",
+      "fontSearchBar":"@mainFont",
+      "colorSearchBarCursor":"#ffffff"
+    }
+  },
+  {
+    "name":"agenda",
+    "action":"fr.smartapps.smartguide.fragment.AgendaListFragment",
+    "descriptions": {
+      "colorRefreshIcon":"#000000",
+      "colorRefreshIconBackground":"#ffffff",
+      "colorSnackBarText":"#ffffff",
+      "colorSnackBarActionText":"#ABCABC",
+      "backgroundListCell": "list_cell_bkg_stretchable.png",
+      "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
+      "colorBackgroundListCard": "",
+      "colorBackgroundListCardSelected": "",
+      "colorCellTitle": "@colorListTitle",
+      "colorCellSubtitle": "@colorListSubtitle",
+      "fontCellTitle": "@mainFont",
+      "fontCellSubtitle": "@subtitleFont",
+      "backgroundListHeader": "@colorAccent",
+      "colorListHeaderText": "#ffffff",
+      "fontListHeaderText": "@mainFont",
+      "fileCellIcon": "icon_cellule.png",
+      "intScaleTypeImage": 0,
+      "cellType": 1
+    }
+  },
+  {
+    "name":"game",
+    "action":"fr.smartapps.smartguide.fragment.GameWebViewFragment",
+    "descriptions": {
+      "loadInFragment":true
+    }
+  },
+  {
     "name":"selfie",
     "action":"fr.smartapps.smartguide.fragment.SelfieFragment",
     "descriptions": {

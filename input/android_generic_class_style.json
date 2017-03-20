@@ -183,6 +183,20 @@
     }
   },
   {
+    "action":"fr.smartapps.smartguide.fragment.GameWebViewFragment",
+    "descriptions":{
+      "background":"@colorBackground",
+      "colorProgressBarFinished":"@colorAccent",
+      "colorProgressBarUnfinished":"#EEEEEE",
+      "colorProgressText":"@colorAccent",
+      "colorProgressBar":"#999999",
+      "colorProgressBarBackground":"#ffffff",
+      "colorFilterProgressThumb":"#DDDDDD",
+      "backgroundAudio":"@colorBackgroundAudio",
+      "colorAudioTextTimeRemaining":"#ffffff"
+    }
+  },
+  {
     "action":"fr.smartapps.smartguide.fragment.MediaImageFragment",
     "descriptions":{
       "background":"#000000",

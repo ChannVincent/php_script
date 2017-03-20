@@ -169,7 +169,24 @@ class StructureAndroidGenerator extends BaseWorker
             case "selfie";
                 $genericViewController = $this->getGenericViewController("selfie");
                 $vc->action = $genericViewController->action;
+                break;
 
+            case "lexique";
+                $genericViewController = $this->getGenericViewController("lexique");
+                $vc->action = $genericViewController->action;
+                break;
+
+            case "agenda";
+                $genericViewController = $this->getGenericViewController("agenda");
+                $vc->action = $genericViewController->action;
+                $vc->descriptions->url = $menu->url;
+                $vc->descriptions->urlTemplate = $menu->urlTemplate;
+                break;
+
+            case "game";
+                $genericViewController = $this->getGenericViewController("game");
+                $vc->action = $genericViewController->action;
+                $vc->descriptions->url = $menu->url;
         }
 
         foreach (get_object_vars($genericViewController->descriptions) as $key => $value) {
