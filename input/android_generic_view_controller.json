@@ -95,7 +95,7 @@
   },
   {
     "name":"poiWebView",
-    "action":"fr.smartapps.smartguide.fragment.POIWebFragment",
+    "action":"fr.smartapps.smartguide.fragment.POIWebViewFragment",
     "descriptions": {
 
     }
@@ -136,6 +136,7 @@
     "name":"agenda",
     "action":"fr.smartapps.smartguide.fragment.AgendaListFragment",
     "descriptions": {
+      "urlTemplate":"agendaTemplate.html",
       "colorRefreshIcon":"#000000",
       "colorRefreshIconBackground":"#ffffff",
       "colorSnackBarText":"#ffffff",

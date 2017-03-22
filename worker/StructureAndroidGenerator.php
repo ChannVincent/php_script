@@ -180,13 +180,13 @@ class StructureAndroidGenerator extends BaseWorker
                 $genericViewController = $this->getGenericViewController("agenda");
                 $vc->action = $genericViewController->action;
                 $vc->descriptions->url = $menu->url;
-                $vc->descriptions->urlTemplate = $menu->urlTemplate;
                 break;
 
             case "game";
                 $genericViewController = $this->getGenericViewController("game");
                 $vc->action = $genericViewController->action;
                 $vc->descriptions->url = $menu->url;
+                break;
         }
 
         foreach (get_object_vars($genericViewController->descriptions) as $key => $value) {
@@ -232,6 +232,10 @@ class StructureAndroidGenerator extends BaseWorker
 
             case "multi-language":
                 $this->_output_structure_android->action = "fr.smartapps.smartguide.activity.TwoStepsPackageActivity";
+                break;
+
+            case "list":
+                $this->_output_structure_android->action = "fr.smartapps.smartguide.activity.ListActivity";
                 break;
         }
 
