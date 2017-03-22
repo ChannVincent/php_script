@@ -110,6 +110,10 @@ class StructureAndroidGenerator extends BaseWorker
             case "toggle";
                 $genericViewController = $this->getGenericViewController("toggle");
                 $vc->action = $genericViewController->action;
+                if (in_array("mapbox", $menu->menus))
+                {
+                    $vc->descriptions->tabMode = "fragmentContainer";
+                }
                 $array = array();
                 foreach ($menu->menus as $position => $sub_menu)
                 {
@@ -187,6 +191,12 @@ class StructureAndroidGenerator extends BaseWorker
                 $vc->action = $genericViewController->action;
                 $vc->descriptions->url = $menu->url;
                 break;
+        }
+
+        // add image background for list framework
+        if ($this->_structure_master->framework == "list")
+        {
+            $vc->descriptions->image = "cellule_rubrique" . $idx . "@2x.png";
         }
 
         foreach (get_object_vars($genericViewController->descriptions) as $key => $value) {
