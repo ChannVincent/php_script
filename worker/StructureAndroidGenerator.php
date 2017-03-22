@@ -110,13 +110,13 @@ class StructureAndroidGenerator extends BaseWorker
             case "toggle";
                 $genericViewController = $this->getGenericViewController("toggle");
                 $vc->action = $genericViewController->action;
-                if (in_array("mapbox", $menu->menus))
-                {
-                    $vc->descriptions->tabMode = "fragmentContainer";
-                }
                 $array = array();
                 foreach ($menu->menus as $position => $sub_menu)
                 {
+                    if ($sub_menu->name == "mapbox")
+                    {
+                        $vc->descriptions->tabMode = "fragmentContainer";
+                    }
                     $this->setSubViewController($sub_menu, $idx * 10 + $position);
                     $array[$position] = $idx * 10 + $position;
                 }
