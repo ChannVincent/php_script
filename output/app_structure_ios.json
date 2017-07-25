@@ -1,7 +1,7 @@
 {
     "schemaVersion": 1,
     "startControllerId": 1,
-    "title": "Picasso",
+    "title": "Fortuny",
     "backgroundSplash": "launch_image.png",
     "classStyleDescriptions": [
         {
@@ -32,12 +32,10 @@
         {
             "idx": 1,
             "descriptions": {
-                "title": "Intro",
-                "tabTitle": "Intro",
+                "title": "Portrait",
+                "tabTitle": "Portrait de Mariano Fortuny",
                 "tabIcon": "icon_tab1.png",
-                "selectedTabIcon": "icon_selected_tab1.png",
-                "action": "WebViewController",
-                "url": "random"
+                "selectedTabIcon": "icon_selected_tab1.png"
             }
         },
         {
@@ -49,8 +47,28 @@
                 "selectedTabIcon": "icon_selected_tab2.png",
                 "action": "POIListViewController",
                 "tours": [
-                    1668
+                    1766
                 ]
+            }
+        },
+        {
+            "idx": 3,
+            "descriptions": {
+                "title": "Plan",
+                "tabTitle": "Plan",
+                "tabIcon": "icon_tab3.png",
+                "selectedTabIcon": "icon_selected_tab3.png"
+            }
+        },
+        {
+            "idx": 4,
+            "descriptions": {
+                "title": "Informations pratiques",
+                "tabTitle": "Infos",
+                "tabIcon": "icon_tab4.png",
+                "selectedTabIcon": "icon_selected_tab4.png",
+                "action": "WebViewController",
+                "url": "https:\/\/unknown"
             }
         }
     ]

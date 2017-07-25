@@ -2,7 +2,7 @@
   {
     "action":"fr.smartapps.smartguide.application.AppSession",
     "descriptions":{
-      "backgroundNavBar":"navbar_portrait.png",
+      "backgroundNavBar":"navbar.png",
       "colorStatusBar":"#000000",
       "colorTitle":"@colorNavBarTitle",
       "fontTitle":"@mainFont",
@@ -99,7 +99,6 @@
       "colorProgressBar":"#999999",
       "colorProgressBarBackground":"#ffffff",
       "colorFilterProgressThumb":"#DDDDDD",
-      "fileProgressBarThumb":"",
       "backgroundAudio":"@colorBackgroundAudio",
       "colorAudioTextTimeRemaining":"#ffffff"
     }
@@ -117,7 +116,6 @@
       "colorProgressBar":"#999999",
       "colorProgressBarBackground":"#ffffff",
       "colorFilterProgressThumb":"#DDDDDD",
-      "fileProgressBarThumb":"",
       "backgroundAudio":"@colorBackgroundAudio",
       "colorAudioTextTimeRemaining":"#ffffff"
     }
@@ -135,7 +133,6 @@
       "colorProgressBar":"#999999",
       "colorProgressBarBackground":"#ffffff",
       "colorFilterProgressThumb":"#DDDDDD",
-      "fileProgressBarThumb":"",
       "backgroundAudio":"@colorBackgroundAudio",
       "colorAudioTextTimeRemaining":"#ffffff",
       "backgroundListCell":"list_cell_bkg_stretchable.png",
@@ -159,7 +156,6 @@
       "colorProgressBar":"#999999",
       "colorProgressBarBackground":"#ffffff",
       "colorFilterProgressThumb":"#DDDDDD",
-      "fileProgressBarThumb":"",
       "backgroundAudio":"@colorBackgroundAudio",
       "colorAudioTextTimeRemaining":"#ffffff"
     }

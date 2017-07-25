@@ -1,19 +1,21 @@
 {
     "schemaVersion": 1,
-    "title": "Picasso",
+    "title": "Fortuny",
     "backgroundSplash": "launch_image.png",
     "action": "fr.smartapps.smartguide.activity.PagerTabActivity",
     "viewControllers": [
         1,
-        2
+        2,
+        3,
+        4
     ],
     "classStyleDescriptions": [
         {
             "action": "fr.smartapps.smartguide.application.AppSession",
             "descriptions": {
-                "backgroundNavBar": "navbar_portrait.png",
+                "backgroundNavBar": "navbar.png",
                 "colorStatusBar": "#000000",
-                "colorTitle": "#0000ff",
+                "colorTitle": "#6b1012",
                 "fontTitle": "",
                 "colorTintSelectedNavBarButton": "#88ffffff",
                 "colorTintMainIcon": "#ffffff",
@@ -35,8 +37,8 @@
             "action": "fr.smartapps.smartguide.activity.PagerTabActivity",
             "descriptions": {
                 "backgroundTabBar": "tab_bg_bottom.png",
-                "colorTabIconSelected": "#000000",
-                "colorTabIconUnselected": "#aaaaaa",
+                "colorTabIconSelected": "#ffffff",
+                "colorTabIconUnselected": "#b1632e",
                 "fontTabTitle": "",
                 "colorFabMenu": "#ffffff",
                 "colorFabButton": "#ffffff",
@@ -53,10 +55,10 @@
                 "backgroundListCellSelected": "#CCCCCC",
                 "backgroundListCard": "#FFFFFF",
                 "backgroundListCardSelected": "#CCCCCC",
-                "colorCellTitle": "#0000ff",
+                "colorCellTitle": "#555555",
                 "fontCellTitle": "",
                 "fontCellSubtitle": "",
-                "colorCellSubtitle": "#0000ff",
+                "colorCellSubtitle": "#777777",
                 "backgroundListHeader": "",
                 "colorListHeadetText": "",
                 "fontListHeaderText": "",
@@ -77,13 +79,13 @@
                 "cellType": 1,
                 "intScaleTypeImage": 0,
                 "intGridColumn": 1,
-                "background": "#FFFF00",
+                "background": "#ffffff",
                 "backgroundListCell": "list_cell_bkg_stretchable.png",
                 "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
                 "colorBackgroundListCard": "",
                 "colorBackgroundListCardSelected": "",
-                "colorCellTitle": "#0000ff",
-                "colorCellSubtitle": "#0000ff",
+                "colorCellTitle": "#555555",
+                "colorCellSubtitle": "#777777",
                 "fontCellTitle": "",
                 "fontCellSubtitle": "",
                 "backgroundListHeader": "",
@@ -99,17 +101,16 @@
             "action": "fr.smartapps.smartguide.fragment.POIShortTextFragment",
             "descriptions": {
                 "intScaleTypeImage": 0,
-                "colorTitle": "#0000ff",
+                "colorTitle": "#6b1012",
                 "fontTitle": "",
-                "colorShortText": "#0000ff",
+                "colorShortText": "#777777",
                 "fontShortText": "",
-                "background": "#FFFF00",
+                "background": "#ffffff",
                 "colorCard": "#ffffff",
                 "colorProgressBar": "#999999",
                 "colorProgressBarBackground": "#ffffff",
                 "colorFilterProgressThumb": "#DDDDDD",
-                "fileProgressBarThumb": "",
-                "backgroundAudio": "#565555",
+                "backgroundAudio": "#6b1012",
                 "colorAudioTextTimeRemaining": "#ffffff"
             }
         },
@@ -117,17 +118,16 @@
             "action": "fr.smartapps.smartguide.fragment.POIFullScreenFragment",
             "descriptions": {
                 "intScaleTypeImage": 1,
-                "colorTitle": "#0000ff",
+                "colorTitle": "#6b1012",
                 "fontTitle": "",
-                "colorShortText": "#0000ff",
+                "colorShortText": "#777777",
                 "fontShortText": "",
-                "background": "#FFFF00",
+                "background": "#ffffff",
                 "colorCard": "#ffffff",
                 "colorProgressBar": "#999999",
                 "colorProgressBarBackground": "#ffffff",
                 "colorFilterProgressThumb": "#DDDDDD",
-                "fileProgressBarThumb": "",
-                "backgroundAudio": "#565555",
+                "backgroundAudio": "#6b1012",
                 "colorAudioTextTimeRemaining": "#ffffff"
             }
         },
@@ -135,41 +135,39 @@
             "action": "fr.smartapps.smartguide.fragment.POIFatherSonsFragment",
             "descriptions": {
                 "intScaleTypeImage": 0,
-                "colorTitle": "#0000ff",
+                "colorTitle": "#6b1012",
                 "fontTitle": "",
-                "colorShortText": "#0000ff",
+                "colorShortText": "#777777",
                 "fontShortText": "",
-                "background": "#FFFF00",
+                "background": "#ffffff",
                 "colorCard": "#ffffff",
                 "colorProgressBar": "#999999",
                 "colorProgressBarBackground": "#ffffff",
                 "colorFilterProgressThumb": "#DDDDDD",
-                "fileProgressBarThumb": "",
-                "backgroundAudio": "#565555",
+                "backgroundAudio": "#6b1012",
                 "colorAudioTextTimeRemaining": "#ffffff",
                 "backgroundListCell": "list_cell_bkg_stretchable.png",
                 "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
                 "fontListTitle": "",
                 "fontListSubtitle": "",
-                "colorListTitle": "#0000ff",
-                "colorListSubtitle": "#0000ff"
+                "colorListTitle": "#555555",
+                "colorListSubtitle": "#777777"
             }
         },
         {
             "action": "fr.smartapps.smartguide.fragment.POILongTextFragment",
             "descriptions": {
                 "intScaleTypeImage": 0,
-                "colorTitle": "#0000ff",
+                "colorTitle": "#6b1012",
                 "fontTitle": "",
-                "colorShortText": "#0000ff",
+                "colorShortText": "#777777",
                 "fontShortText": "",
-                "background": "#FFFF00",
+                "background": "#ffffff",
                 "colorCard": "#ffffff",
                 "colorProgressBar": "#999999",
                 "colorProgressBarBackground": "#ffffff",
                 "colorFilterProgressThumb": "#DDDDDD",
-                "fileProgressBarThumb": "",
-                "backgroundAudio": "#565555",
+                "backgroundAudio": "#6b1012",
                 "colorAudioTextTimeRemaining": "#ffffff"
             }
         },
@@ -185,10 +183,24 @@
         {
             "action": "fr.smartapps.smartguide.fragment.WebViewFragment",
             "descriptions": {
-                "background": "#FFFF00",
-                "colorProgressBarFinished": "#00FFFF",
+                "background": "#ffffff",
+                "colorProgressBarFinished": "#6b1012",
                 "colorProgressBarUnfinished": "#EEEEEE",
-                "colorProgressText": "#00FFFF"
+                "colorProgressText": "#6b1012"
+            }
+        },
+        {
+            "action": "fr.smartapps.smartguide.fragment.GameWebViewFragment",
+            "descriptions": {
+                "background": "#ffffff",
+                "colorProgressBarFinished": "#6b1012",
+                "colorProgressBarUnfinished": "#EEEEEE",
+                "colorProgressText": "#6b1012",
+                "colorProgressBar": "#999999",
+                "colorProgressBarBackground": "#ffffff",
+                "colorFilterProgressThumb": "#DDDDDD",
+                "backgroundAudio": "#6b1012",
+                "colorAudioTextTimeRemaining": "#ffffff"
             }
         },
         {
@@ -211,15 +223,15 @@
         {
             "action": "fr.smartapps.smartguide.activity.TwoStepsPackageActivity",
             "descriptions": {
-                "color2stepsProgressFinished": "#00FFFF",
+                "color2stepsProgressFinished": "#6b1012",
                 "color2stepsProgressUnfinished": "#CCCCCC",
-                "color2stepsText": "#00FFFF"
+                "color2stepsText": "#6b1012"
             }
         },
         {
             "action": "fr.smartapps.smartguide.activity.VideoActivity",
             "descriptions": {
-                "colorBackgroundPlayer": "#565555",
+                "colorBackgroundPlayer": "#6b1012",
                 "colorButtonPlay": "#ffffff",
                 "colorProgressBarFinished": "#ffffff",
                 "colorProgressBarUnfinished": "#999999",
@@ -232,13 +244,14 @@
         {
             "idx": 1,
             "descriptions": {
-                "title": "Intro",
-                "tabTitle": "Intro",
+                "title": "Portrait",
+                "tabTitle": "Portrait de Mariano Fortuny",
                 "tabIcon": "icon_tab1.png",
                 "selectedTabIcon": "icon_selected_tab1.png",
-                "url": "random"
+                "poiIdx": 18468,
+                "tourIdx": 1767
             },
-            "action": "fr.smartapps.smartguide.fragment.WebViewFragment"
+            "action": "fr.smartapps.smartguide.fragment.POIShortTextFragment"
         },
         {
             "idx": 2,
@@ -248,18 +261,18 @@
                 "tabIcon": "icon_tab2.png",
                 "selectedTabIcon": "icon_selected_tab2.png",
                 "tours": [
-                    1668
+                    1766
                 ],
-                "background": "#FFFF00",
+                "background": "#ffffff",
                 "backgroundListCell": "list_cell_bkg_stretchable.png",
                 "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
                 "colorBackgroundListCard": "",
                 "colorBackgroundListCardSelected": "",
-                "colorCellTitle": "#0000ff",
-                "colorCellSubtitle": "#0000ff",
+                "colorCellTitle": "#555555",
+                "colorCellSubtitle": "#777777",
                 "fontCellTitle": "",
                 "fontCellSubtitle": "",
-                "backgroundListHeader": "#00FFFF",
+                "backgroundListHeader": "#6b1012",
                 "colorListHeaderText": "#ffffff",
                 "fontListHeaderText": "",
                 "fileCellIcon": "icon_cellule.png",
@@ -267,6 +280,33 @@
                 "cellType": 1
             },
             "action": "fr.smartapps.smartguide.fragment.ListPOIFragment"
+        },
+        {
+            "idx": 3,
+            "descriptions": {
+                "title": "Plan",
+                "tabTitle": "Plan",
+                "tabIcon": "icon_tab3.png",
+                "selectedTabIcon": "icon_selected_tab3.png",
+                "tour": 1766,
+                "backgroundMapCallout": "#EE555555",
+                "colorMapCalloutText": "#FFFFFF",
+                "fileMapCalloutDisclosure": "map_disclosure.png",
+                "locationIconColor": "#6b1012",
+                "background": "#ffffff"
+            },
+            "action": "fr.smartapps.smartguide.fragment.MapFragment"
+        },
+        {
+            "idx": 4,
+            "descriptions": {
+                "title": "Informations pratiques",
+                "tabTitle": "Infos",
+                "tabIcon": "icon_tab4.png",
+                "selectedTabIcon": "icon_selected_tab4.png",
+                "url": "https:\/\/unknown"
+            },
+            "action": "fr.smartapps.smartguide.fragment.WebViewFragment"
         }
     ]
 }

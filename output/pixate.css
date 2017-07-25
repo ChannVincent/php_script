@@ -1,13 +1,13 @@
 navigation-bar {
-    -ios-tint-color: #FFFF00;
+    -ios-tint-color: #ffffff;
 }
 
 navigation-bar title {
-    color: #0000ff;
+    color: #6b1012;
 }
 
 toolbar {
-    -ios-tint-color: #FFFF00;
+    -ios-tint-color: #ffffff;
 }
 
 tab-bar {
@@ -30,8 +30,8 @@ segmented-control {
 
 table-view {
     separator-style: none;
-    background-color: #FFFF00;
-    color: #0000ff;
+    background-color: #ffffff;
+    color: #777777;
 }
 
 #custom_player_son_title {
@@ -39,7 +39,7 @@ table-view {
 }
 
 #list_title{
-    color: #0000ff;
+    color: #555555;
 }
 
 #list_title:highlighted{
@@ -47,7 +47,7 @@ table-view {
 }
 
 #list_subtitle {
-    color: #0000ff;
+    color: #777777;
 }
 
 #list_subtitle:highlighted {
@@ -55,35 +55,35 @@ table-view {
 }
 
 #table-view-headerfooter-view{
-    color: #00FFFF;
-    background-color: #FFFF00;
-    border-bottom: 1px solid #00FFFF;
+    color: #6b1012;
+    background-color: #ffffff;
+    border-bottom: 1px solid #6b1012;
 }
 
 #short_text {
-    color: #0000ff;
-    background-color: #FFFF00;
+    color: #777777;
+    background-color: #ffffff;
     text-align: left;
 }
 
 #long_text {
-    color: #0000ff;
-    background-color: #FFFF00;
+    color: #777777;
+    background-color: #ffffff;
     text-align: left;
 }
 
 #player2 {
-    background-color: #FFFF00;
+    background-color: #ffffff;
 }
 
 #player3 {
-    background-color: #FFFF00;
+    background-color: #ffffff;
 }
 
 #player4 {
-    background-color: #FFFF00;
+    background-color: #ffffff;
 }
 
 #player5 {
-    background-color: #FFFF00,
+    background-color: #ffffff,
 }

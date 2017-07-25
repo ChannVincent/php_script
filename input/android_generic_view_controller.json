@@ -83,6 +83,7 @@
     "name":"poiFatherSon",
     "action":"fr.smartapps.smartguide.fragment.POIFatherSonsFragment",
     "descriptions": {
+      "backgroundListCell": "list_cell_bkg_stretchable_poi_fils.png"
 
     }
   },

@@ -1,21 +1,21 @@
 {
   "colors": {
-    "@colorListTitle": "#0000ff",
-    "@colorListSubtitle": "#0000ff",
+    "@colorListTitle": "#555555",
+    "@colorListSubtitle": "#777777",
 
-    "@colorPOITitle": "#0000ff",
-    "@colorPOISubtitle": "#0000ff",
-    "@colorPOIText": "#0000ff",
+    "@colorPOITitle": "#6b1012",
+    "@colorPOISubtitle": "#555555",
+    "@colorPOIText": "#777777",
 
-    "@colorNavBarTitle": "#0000ff",
-    "@colorTopTabSelectedTitle":"#00FFFF",
-    "@colorTopTabTitle":"#00FF00",
-    "@colorBottomTabSelectedTitle": "#000000",
-    "@colorBottomTabTitle": "#aaaaaa",
+    "@colorNavBarTitle": "#6b1012",
+    "@colorTopTabSelectedTitle":"#6b1012",
+    "@colorTopTabTitle":"#b1632e",
+    "@colorBottomTabSelectedTitle": "#ffffff",
+    "@colorBottomTabTitle": "#b1632e",
 
-    "@colorAccent":"#00FFFF",
-    "@colorBackgroundAudio": "#565555",
-    "@colorBackground":"#FFFF00"
+    "@colorAccent":"#6b1012",
+    "@colorBackgroundAudio": "#6b1012",
+    "@colorBackground":"#ffffff"
   },
 
   "fonts": {
@@ -26,35 +26,35 @@
 
   "framework":"tab",
   "hideBackButtonTextIOS": true,
-  "title":"Picasso",
+  "title":"Fortuny",
 
   "menus": [
     {
-      "name":"web",
-      "title":"Intro",
-      "tabTitle":"Intro",
-      "url":"random"
+      "name":"poiShortText",
+      "title":"Portrait",
+      "tabTitle":"Portrait de Mariano Fortuny",
+      "poiIdx":18468,
+      "tourIdx":1767
     },
     {
       "name":"list",
       "title":"Visite",
       "tabTitle":"Visite",
       "tours":[
-        1668
+        1766
       ]
     },
     {
       "name":"map",
-      "title":"Carte",
-      "tour": 1668
+      "title":"Plan",
+      "tabTitle":"Plan",
+      "tour": 1766
     },
     {
-      "name":"keypad",
-      "title":"Clavier",
-      "tabTitle":"Clavier",
-      "tours": [
-        1668
-      ]
+      "name":"web",
+      "title":"Informations pratiques",
+      "tabTitle":"Infos",
+      "url": "https://unknown"
     }
   ]
 }
