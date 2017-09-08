@@ -38,12 +38,21 @@
     }
   },
   {
+    "name":"mapBeacon",
+    "action":"fr.smartapps.smartguide.fragment.MapBeaconFragment",
+    "descriptions": {
+      "backgroundMapCallout": "#EE555555",
+      "colorMapCalloutText": "#FFFFFF",
+      "fileMapCalloutDisclosure": "map_disclosure.png",
+      "background": "@colorBackground"
+    }
+  },
+  {
     "name": "list",
     "action": "fr.smartapps.smartguide.fragment.ListPOIFragment",
     "descriptions": {
       "background":"@colorBackground",
       "backgroundListCell": "list_cell_bkg_stretchable.png",
-      "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
       "colorBackgroundListCard": "",
       "colorBackgroundListCardSelected": "",
       "colorCellTitle": "@colorListTitle",
@@ -143,7 +152,6 @@
       "colorSnackBarText":"#ffffff",
       "colorSnackBarActionText":"#ABCABC",
       "backgroundListCell": "list_cell_bkg_stretchable.png",
-      "backgroundListCellSelected": "list_cell_bkg_stretchable_active.png",
       "colorBackgroundListCard": "",
       "colorBackgroundListCardSelected": "",
       "colorCellTitle": "@colorListTitle",

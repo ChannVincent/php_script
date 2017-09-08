@@ -1,20 +1,20 @@
 {
   "colors": {
-    "@colorListTitle": "#555555",
-    "@colorListSubtitle": "#777777",
+    "@colorListTitle": "#000000",
+    "@colorListSubtitle": "#000000",
 
-    "@colorPOITitle": "#6b1012",
-    "@colorPOISubtitle": "#555555",
-    "@colorPOIText": "#777777",
+    "@colorPOITitle": "#000000",
+    "@colorPOISubtitle": "#aaaaaa",
+    "@colorPOIText": "#000000",
 
-    "@colorNavBarTitle": "#6b1012",
-    "@colorTopTabSelectedTitle":"#6b1012",
-    "@colorTopTabTitle":"#b1632e",
-    "@colorBottomTabSelectedTitle": "#ffffff",
-    "@colorBottomTabTitle": "#b1632e",
+    "@colorNavBarTitle": "#bd2716",
+    "@colorTopTabSelectedTitle":"#000000",
+    "@colorTopTabTitle":"#000000",
+    "@colorBottomTabSelectedTitle": "#000000",
+    "@colorBottomTabTitle": "#e4e2e0",
 
-    "@colorAccent":"#6b1012",
-    "@colorBackgroundAudio": "#6b1012",
+    "@colorAccent":"#ffffff",
+    "@colorBackgroundAudio": "#565555",
     "@colorBackground":"#ffffff"
   },
 
@@ -26,35 +26,40 @@
 
   "framework":"tab",
   "hideBackButtonTextIOS": true,
-  "title":"Fortuny",
+  "title":"Lee Ungno",
 
   "menus": [
     {
-      "name":"poiShortText",
-      "title":"Portrait",
-      "tabTitle":"Portrait de Mariano Fortuny",
-      "poiIdx":18468,
-      "tourIdx":1767
-    },
-    {
-      "name":"list",
-      "title":"Visite",
-      "tabTitle":"Visite",
-      "tours":[
-        1766
-      ]
+      "name":"web",
+      "title":"Introduction",
+      "tabTitle":"Intro",
+      "url":"http://www.cernuschi.paris.fr/fr/expositions/lee-ungno-l-homme-des-foules"
     },
     {
       "name":"map",
-      "title":"Plan",
       "tabTitle":"Plan",
-      "tour": 1766
+      "title":"Plan",
+      "tour":1735
+    },
+    {
+      "name":"list",
+      "title":"Liste",
+      "tabTitle":"Liste",
+      "tours":[
+          1735
+      ]
+    },
+    {
+      "name":"web",
+      "title":"#expoLeeUngno",
+      "tabTitle":"Live",
+      "url":"https://twitter.com/MuseeCernuschi"
     },
     {
       "name":"web",
       "title":"Informations pratiques",
       "tabTitle":"Infos",
-      "url": "https://unknown"
+      "url":"http://www.cernuschi.paris.fr/fr/expositions/lee-ungno-l-homme-des-foules"
     }
   ]
 }

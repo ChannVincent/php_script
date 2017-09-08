@@ -101,6 +101,12 @@ class StructureAndroidGenerator extends BaseWorker
                 $vc->descriptions->tour = $menu->tour;
                 break;
 
+            case "mapBeacon";
+                $genericViewController = $this->getGenericViewController("mapBeacon");
+                $vc->action = $genericViewController->action;
+                $vc->descriptions->tour = $menu->tour;
+                break;
+
             case "keypad";
                 $genericViewController = $this->getGenericViewController("keypad");
                 $vc->action = $genericViewController->action;
